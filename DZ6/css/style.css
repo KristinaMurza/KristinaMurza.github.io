@@ -1,0 +1,499 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body  {
+    width: 100%;
+    font-size: 1em;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+  min-width: 909px;
+}
+
+header {
+	display: flex;
+	flex-flow: row wrap;
+	width: 909px;
+	flex: 0 0 100%;
+	height: 305px;
+	align-self: center;
+	justify-content: center;
+}
+
+/*контакты*/
+
+.phone {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding-top: 5px;
+    padding-right: 20px;
+}
+.number {
+    color: #5e696d;
+    font-family: 'Arial';
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 6px;
+}
+
+.avtoriz {
+	padding: 6px;
+}
+.log-in {
+	width: 495px;
+    height: 30px;
+    background: linear-gradient(to top, #1f6787, #0c3357);
+    border-radius: 3px;
+    margin-right: 15px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    box-shadow: 3px 3px 3px 0px rgba(204,198,204,1);
+}
+.log-in a {
+	text-decoration: none;
+}
+[type="text"],
+[type="password"] {
+    width: 113px;
+    font-size: 11px;
+    text-transform: lowercase;
+    font-family: 'Lucida Sans Unicode', 'Arial';
+    color: #97a2a6;
+    height: 17px;
+    padding: 2px;
+    margin-top: 6px;
+    border: none;
+}
+.entr {
+    color: #ffffff;
+    font-size: 11px;
+    font-family: 'Lucida Sans Unicode', 'Arial';
+    background: linear-gradient(to top, #1f6787, #0c3357);
+    text-transform: lowercase;
+    line-height: 25px;
+    border: none;
+    margin-left: 5px;
+    padding: 1px;
+}
+.check_in {
+    color: #ffffff;
+    font-size: 11px;
+    font-family: 'Lucida Sans Unicode', 'Arial';
+    line-height: 25px;
+    border-left: 1px solid #ffffff;
+    padding-left: 3px;
+}
+.pass {
+	color: #bfbfbf;
+	font-size: 12px;
+	font-family: 'Lucida Sans Unicode', 'Arial';
+	text-decoration: underline;
+	margin-left: 20px;
+	text-transform: lowercase;
+	line-height: 25px;
+}
+.home {
+    margin-top: 3px;
+    width: 75px;
+    height: 21px;
+    box-shadow: 3px 3px 4px 0px rgba(204,198,204,1);
+    border: 1px solid #d7dcdd;
+    border-radius: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.icon_1{
+    padding-top: 4px;
+    padding-left: 11px;
+}
+.icon {
+	padding: 5px 4px;
+}
+
+/*котакты*/
+
+.logo {
+	margin-top: 10px;
+    width: 909px;
+    height: 235px;
+}
+
+/*NAVIGATION*/
+
+.menu {
+    margin-top: 5px;
+	display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+	width: 909px;
+	box-shadow: 3px 3px 4px 0px rgba(150,148,150,1);
+	height: 35px;	
+	background: linear-gradient(to bottom, #485160, #010101);
+	border-radius: 5px;	
+}
+.nav {
+    display: flex;
+    align-items: center;
+    margin-right: 34px;
+}
+.nav a {
+    height: 26px;
+	font-size: 14px;
+	font-family: 'Lucida Sans Unicode', 'Arial';
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #b1bcc0;
+	padding: 4px 15px 1px 18px;
+	border-radius: 30px;
+}
+.menu a:hover {
+	background: linear-gradient(to bottom, #25617b, #0d365a);
+}
+.order {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.digit {
+    margin: 5px;
+	font-size: 12px;
+	font-family: 'Arial';
+	color: #0d5a8f;
+	align-self: center;
+}
+.amount {
+    margin-left: 5px;
+	font-size: 11px;
+	font-family: 'Arial';
+	color: #929b9f;
+	align-self: center;
+}
+.sum {
+	font-size: 11px;
+	font-family: 'Arial';
+	color: #8a9296;
+	align-self: center;
+}
+.search {
+	align-self: center;
+	margin-top: 5px;
+}
+
+/*NAVIGATION end*/
+
+.main_content {
+  display: flex;
+  flex-direction: column;
+  width: 909px;
+  margin-top: 10px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/*SIDEBAR-right*/
+
+.sidebar-right {
+	order: 3;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: flex-start;
+	width: 235px;
+}
+
+.brends {
+    box-shadow: 2px 3px 2px 0px rgba(204,198,204,1);
+    border: 1px solid #79878d;
+    border-radius: 15px;
+    width: 183px;
+    height: 27px;
+    display: flex;
+    flex-flow: row wrap;
+    align-self: flex-start;
+    margin-left: 9px;
+}
+
+.brends_txt {
+ 	font-family: 'Lucida Sans Unicode';
+ 	font-size: 13px;
+ 	color: #0c3256;
+ 	text-transform: uppercase;
+ 	align-self: center;
+ 	margin-left: 5px;
+}
+.brends_img {
+ 	margin-left: 4px;
+}
+.tires_r,
+.discs_r {
+ 	border: 1px solid #79878d;
+ 	width: 136px;
+ 	height: 29px;
+ 	margin-left: 22px;
+ 	border-radius: 15px;
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	margin-top: 15px;
+ 	align-self: flex-start;
+}
+.tires_img_r,
+.discs_img_r {
+ 	margin: 2px 7px;
+}
+.tires_txt_r,
+.discs_txt_r {
+	text-transform: uppercase;
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #0c3256;
+	align-self: center;
+ 	margin-left: -4px;
+}
+.tires_checkbox_r,
+.discs_checkbox_r {
+	display: flex;
+    margin-left: 20px;
+    width: 100px;
+    padding: 0px 10px;
+    align-self: flex-start;
+}
+
+.check_label_r {
+	font-size: 13px;
+	color: #465961;
+	font-family: 'Lucida Sans Unicode';
+}
+
+#tires1_r,
+#tires2_r,
+#tires3_r,
+#discs1_r,
+#discs2_r,
+#discs3_r {
+	margin-top: 8px;
+} 
+
+.choice {
+    background: linear-gradient(to bottom, #1e6383, #0d3458 );
+    border: 1px solid #a7abae;
+    width: 83px;
+    height: 25px;
+    border-radius: 15px;
+    margin-left: 31px;
+    margin-top: 18px;
+    color: #e5e9ea;
+    font-family: 'Arial';
+    font-size: 11px;
+    text-transform: uppercase;
+}
+
+/*SIDEBAR-left */
+
+.sidebar-left {
+  	order: 1;
+	display: flex;
+	flex-flow: column nowrap;
+	width: 235px;
+}
+.catalog {
+    border: 1px solid #79878d;
+    border-radius: 15px;
+    height: 25px;
+    display: flex;
+    flex-flow: row wrap;
+    width: 184px;
+    align-self: flex-end;
+    margin-right: 10px;
+    box-shadow: 2px 3px 2px 0px rgba(204,198,204,1);
+    margin-top: 4px;
+}
+.catalog_txt {
+ 	font-family: 'Lucida Sans Unicode';
+ 	font-size: 13px;
+ 	color: #114165;
+ 	text-transform: uppercase;
+ 	align-self: center;
+ 	margin-left: 1px;
+}
+.catalog_img {
+ 	margin-left: 4px;
+}
+.tires_l,
+.discs_l,
+.bolts {
+ 	border: 1px solid #79878d;
+    width: 149px;
+    height: 28px;
+ 	border-radius: 15px;
+ 	display: flex;
+ 	flex-flow: row wrap;
+ 	margin-top: 15px;
+ 	align-self: flex-start;
+ 	margin-left: 45px;
+}
+
+.discs_l,
+.bolts {
+	margin-top: -4px;
+}
+
+.tires_img_l,
+.discs_img_l,
+.bolts_img {
+ 	margin: 2px 4px;
+}
+.tires_txt_l,
+.discs_txt_l,
+.bolts_txt {
+	text-transform: uppercase;
+	font-family: 'Arial';
+	font-size: 14px;
+	color: #0c3256;
+	align-self: center;
+}
+
+ul {
+	padding-left: 74px;
+}
+
+.tires_marker,
+.discs_marker,
+.bolts_marker {
+	display: flex;
+	margin-top: 3px;
+ }
+
+.tires_marker a,
+.discs_marker a,
+.bolts_marker a {
+    font-size: 13px;
+    color: #465961;
+    font-family: 'Lucida Sans Unicode';
+    text-decoration: none;
+    background: url(../img/marker.png) 3px;
+    background-repeat: no-repeat;
+    line-height: 25px;
+    padding: 1px 0 0 14px;
+}
+.tires_marker a:hover,
+.discs_marker a:hover,
+.bolts_marker a:hover {
+    color: #0c3256;
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';
+    text-decoration: underline;
+    background-image: url(../img/marker_hover.png);
+}
+
+/*PRODUCTS - start*/
+
+main {
+    background: linear-gradient(to bottom, #e4e7e8, #93a7b0);  
+    order: 2;
+    padding: 15px 30px 30px 25px;
+    width: 525px;
+    display: flex;
+}
+
+.block_2,
+.block_3 {
+	margin-top: 26px;
+}
+.model_1 {
+	background: #ffffff;
+    width: 137px;
+    height: 128px;
+   	border: 1px solid #a4aeb1;
+   	text-align: center;
+   	padding: 5px 10px;
+   	border-radius: 5px;
+}
+.second,
+.third {
+	margin-left: 28px;
+}
+.model_2,
+.model_3 {
+    background: #ffffff;
+    width: 137px;
+    height: 128px;
+   	border: 1px solid #a4aeb1;
+   	text-align: center;
+   	padding: 5px 10px;
+   	border-radius: 5px;
+}
+.price {
+    color: #114165;
+    font-family: 'Arial';
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 5px;
+     margin-left: 8px;
+}
+.name {
+	color: #206988;
+	font-size: 15px;
+	font-family: 'Lucida Sans Unicode';
+	text-align: center;
+}
+.model {
+	color: #1f2528;
+	font-size: 13px;
+	font-family: 'Lucida Sans Unicode';
+	text-align: center;
+}
+
+/*FOOTER - start*/
+
+footer {
+  flex: 0 0 100%;
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.logo_brend {
+    margin: 34px 0 24px;
+    text-align: center;
+}
+img {
+	border-style: none;
+}
+.bottom_menu {
+	display: flex;
+	flex-flow: column wrap;
+	width: 910px;
+	height: 100px;
+	background-color: #242a3c;
+	padding-top: 10px;
+	color: #bec6c9;
+	align-self: center;
+	align-items: center;
+}
+.bottom_menu a {
+	text-decoration: none;
+	color: #bec6c9;
+	font-size: 12px;
+	font-family: 'Arial';
+}
+.bottom_menu a:hover {
+	color: #52abcb;
+}
+.copy {
+	margin-top: 15px;
+	color: #7f4740;
+	font-size: 10px;
+	font-family: 'Arial';
+}
