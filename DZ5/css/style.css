@@ -12,7 +12,7 @@ body{
     width: 100%;
     background: url(../img/Background-copy.png) no-repeat;
     background-size: cover;
-    font-family: 'Helvetica Neue Regular', Arial;
+    font-family: 'Helvetica Neue Regular', 'Arial';
 }
 
 header {
@@ -20,7 +20,7 @@ header {
     height: 36px;
     margin: 0 auto;
     background: url(../img/MergedLayers2.png);
-    font-family: 'Helvetica Neue Regular', Arial;
+    font-family: 'Helvetica Neue Regular', 'Arial';
 }
 ul {
     width: 735px;
@@ -66,7 +66,7 @@ a {
 	background-color: #4eabda;
 }
 
-ol{
+.menu img{
     padding-top: 3px;
     padding-left: 18px;
     float: left;
@@ -75,20 +75,18 @@ ol{
 }
 /* Box_menu */
 .box{
-    margin: auto;
-    height: 1000px;
-    width: 560px;
+margin: auto;
+height: 900px;
+width: 541px;
+margin-top: 213px;
 }
 .box .wrapper{
-    position: relative;
-    margin: auto;
-    top: 200px;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 560px;
+    height: 670px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background: rgba(0,0,0,0.5);
-    font-family: 'Helvetica Neue Regular', Arial;
+    font-family: 'Helvetica Neue Regular', 'Arial';
 }
 .header_form {
     color: #fff;
@@ -99,47 +97,71 @@ ol{
     line-height: 60px;
     border-bottom: 2px solid rgba(255,255,255, .7);
     font-size: 24px;
-    font-family: 'Helvetica Neue Regular', Arial;
+    font-family: 'Helvetica Neue Regular', 'Arial';
 }
 /* Основное меню*/
-button{
-    height: 36px;
-    width: 276px;
-    border: none;
-    background: url(../img/facebook.png);
-    position: absolute;
-    top: 85px;
-    left: 140px;
-    cursor: unset;
+.fb-login-container{
+    display: flex;
+    margin: auto;
+    width: 250px;
+    height: 35px;
+    background-color: lightgrey;
+    line-height:32px;
+    text-align:center;
+    color:white;
+    border-radius: 4px;
+    cursor:pointer;
+    margin-top:25px;
+    margin-bottom: 10px;
 }
+}
+.register-form {
+    color: #cfccbd;
+    font-size: 14px;
+    text-align: center;
+}
+
+.fb-icon{
+    background-color: cornflowerblue;
+    width: 32px;
+    line-height:32px;
+    background: linear-gradient(#3b5998, #30416d);
+    border-top:1px solid #7b8aa7;
+    border-top-left-radius:4px;
+    border-bottom-left-radius:4px;
+    border-right:1px solid #203a77;
+}
+
+.fb-sign-in{
+    width:100%;
+    background: linear-gradient(#3b5998, #30416d);
+    border-top:1px solid #7b8aa7;
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    border-left:1px solid #4f69a6;
+}
+
 .layer{
     width: 276px;
-    height: 2px;
-    position: absolute;
-    top: 160px;
-    left: 140px;
-    background: url(../img/Layer-49.png);
+    height: 55px;
+    margin-left: 134px;
 }
 .layer p{
-    width: 23px;
-    height: 14px;
-    position: absolute;
-    left: 128px;
-    top: -13px;
-    right: 1px;
+    margin: -26px;
     color: #999999;
 }
 .maine_form{
-    width: 276px;
+    width: 250px;
     margin: 0 auto;
-    padding-top: 140px;
 }
 .form{
-    width: 276px;
-    height: 35px;
+    width: 229px;
+    height: 30px;
     margin-bottom: 20px;
 }
 .checkbox{
+        width: 275px;
+    height: 40px;
     position: relative;
     font-size: 14px;
     color: #cccccc;
@@ -156,14 +178,15 @@ button{
     box-shadow: none;
 }
 .submit{
-    padding-top: 10px;
+        height: 42px;
+    width: 275px;
 }
 .submit input{
     padding: 8px 13px;
     background: url(../img/Button-copy.png);
 }
 input{
-    padding: 10px 75px 8px 19px;
+    padding-left: 20px;
     font-size: 14px;
     border: 0;
     color: #fffcfc;
@@ -175,12 +198,12 @@ input:focus{
     background: #1b4d7f; 
 }
 .text{
-    width: 285px;
+    width: 275px;
     padding-top: 10px;
 }
 .text p{
     text-align: center;
     color: #cccccc;
     font-size: 12px;
-    font-family: 'Helvetica Neue Regular', Arial;
+    font-family: 'Helvetica Neue Regular', 'Arial';
 }

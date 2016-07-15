@@ -10,37 +10,45 @@ body {
     box-shadow: 0 8px 11px #031d28; 
 }
 header {
-    height: 175px;
+    height: 450px;
 }
 .logo {
-    padding: 45px;
+    padding-top: 45px;
+    padding-left: 45px;
     float: left;
 }
-.contacts{
-    padding-top: 15px;
-    padding-left: 845px;
+a{
+    text-decoration: none;
     color: #6eacc0;
+    font-size: 12px;
+}
+.contacts{
+    height: 110px;
+    width: 631px;
+    padding-right: 35px;
+    padding-top: 15px;
+    color: #6eacc0;
+    text-align: right;
+    float: left;
 }
 .contacts h1{
-    padding: 10px 0;
+    padding: 10px 32px 10px;
     font-size: 12px;
     color: #41a1b9;
 }
 .contacts p{
-    padding: 2px;
+    padding: 6px 30px 0;
     font-size: 12px;
 }
 .contries{
-    padding-top: 50px;
-    padding-left: 580px;
-    margin: 0 auto;
+    margin-top: 20px;
+    float: right;
 }
 .contries li {
-    width: 65px;
+    width: 67px;
     display: inline-block;
 }
 .contries a {
-    padding-right: 17px;
     padding-top: 2px;
     display: block;
     text-align: center;
@@ -113,10 +121,11 @@ ul.nav li ul li a:after{
     
 }
 .left-blok{
-    margin: 305px 0 0;
+    margin: 30px 0 0;
     width: 200px;
     height: 510px;
     padding-left: 5px;
+    float: left;
     text-align: center;
     background: #edeef0;
     border-right: 1px solid #c7cacf;
@@ -132,7 +141,7 @@ ul.nav li ul li a:after{
     color: #424c43;
 }
 .right-blok{
-    margin: -510px 0 0;
+    margin: 30px 0 0;
     width: 200px;
     height: 510px;
     padding-left: 5px;
