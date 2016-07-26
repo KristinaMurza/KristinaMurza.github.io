@@ -176,10 +176,6 @@ a {
     top: 9px;
     box-shadow: none;
 }
-.submit{
-        height: 42px;
-    width: 275px;
-}
 .submit input{
     padding: 8px 13px;
     background: url(../img/Button-copy.png);
