@@ -93,7 +93,7 @@ header{
     float: left;
     position: relative;
     top: 78px;
-    left: 23px;
+    left: 22px;
 }
 .slid-bar__title{
     font-family: 'League Gothic Regular', 'Arial', sans-serif;
@@ -127,7 +127,7 @@ header{
 .slid-bar-img{
     position: relative;
     top: -17px;
-    left: 131px;
+    left: 132px;
     float: left;
 }
 
@@ -504,6 +504,8 @@ header{
     .wrapper-section{
         max-width: 730px;
         margin: 0px auto;
+        overflow: hidden;
+        height: 100%;
     }
     .header-logo{
         float: left;
@@ -557,7 +559,8 @@ header{
     .slider__bar{
         height: 232px;
         width: 298px;
-        padding-top: 19px;
+        top: 96px;
+        left: 23px;
     }
     .subtitle-text{
         display: none;
@@ -579,8 +582,8 @@ header{
         line-height: 26px;
     }
     .slid-bar-img{
-        top: -21px;
-        left: 134px;
+        top: 0px;
+        left: 131px;
     }
     .slid-bar-img__iphone{
         width: 272px;
@@ -842,7 +845,7 @@ header{
     }
     .wrapper-section{
         margin: 0 auto;
-        height: 195px;
+        height: 100%;
         max-width: 450px;
     }
     .header-logo{
@@ -974,10 +977,10 @@ header{
     }
     .slid-bar-img{
         left: 26px;
-        top: -8px;
+        top: 0;
     }
     .slid-bar-img__iphone {
-        width: 191px;
+        width: 180px;
     }
     .slider-radio{
         padding: 0;
@@ -1128,7 +1131,7 @@ header{
     }
     .wrapper-section{
         margin: 0px auto;
-        height: 120px;
+        height: 100%;
         width: 315px;
     }
     .top-bar{
