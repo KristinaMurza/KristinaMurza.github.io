@@ -5,22 +5,17 @@ for (var i = 0; i < 5; i++) {
 }
 
 var user = prompt('Введите имя пользователя', '');
-	
-if (user.length === 0) {
-	alert('Вы не ввели имя пользователя');
-	user = prompt('Введите имя пользователя', '');
-}
 
 var userNames = 0;
 
-for (i = 1; i < 2; i++) {
-    if (user == names[i]) {
+for (var i = 1; i < 2; i++) {
+    if ( names[i] == user ) {
         userNames = 1;
         break;
     }   
 }
 
-if ( userNames == 1) {
+if ( userNames ) {
    alert(user + ', вы успешно вошли!');
 } else {
     alert('В списке нет пользователя с таким именем');
