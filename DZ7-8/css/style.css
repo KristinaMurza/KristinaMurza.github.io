@@ -778,7 +778,7 @@ header{
     }
     .slider-radio{
         padding: 0;
-        top: 115%;
+        top: 72%;
     }
     .slider__bar{
         /*! height: 232px; */
@@ -1384,7 +1384,7 @@ header{
         width: 90%;
     }
     .slid-bar{
-    left: 35%;
+    left: 25%;
     top: 40px;
     width: 70%;
     }
