@@ -27,7 +27,7 @@ function split() {
          split_time.className = 'splitItem';
          var allSplits = document.getElementsByClassName('splitItem');
          var actSplits = allSplits.length;
-         var newText = document.getElementById('stoptwatch');
+         var newText = document.getElementById('stopwatch').innerHTML;
          split_time.innerHTML = "Split " + (actSplits + 1) + ": " + newText;
          text_split.insertBefore(split_time, allSplits[0]);
 }
