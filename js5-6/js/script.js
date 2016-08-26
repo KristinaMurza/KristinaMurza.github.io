@@ -10,25 +10,37 @@ function start() {
      } else {
          startTime = 0;
          document.getElementById('start').innerHTML = 'Resume';
-         var text = document.getElementById('text');
+         var text_stop = document.getElementById('text_stop');
          var stop = document.createElement('div');
          stop.className = 'stopItem';
          var allStops = document.getElementsByClassName('stopItem');
          var actStops = allStops.length;
          var newText = document.getElementById('stopwatch').innerHTML;
          stop.innerHTML = "Stop " + (actStops + 1) + ": " + newText;
-         text.insertBefore(stop, allStops[0]);
+         text_stop.insertBefore(stop, allStops[0]);
 	 }
 }
 
+function split() {
+         var text_split = document.getElementById('text_split');
+         var split_time = document.createElement('div');
+         split_time.className = 'splitItem';
+         var allSplits = document.getElementsByClassName('splitItem');
+         var actSplits = allSplits.length;
+         var newText = document.getElementById('stoptwatch');
+         split_time.innerHTML = "Split " + (actSplits + 1) + ": " + newText;
+         text_split.insertBefore(split_time, allSplits[0]);
+}
 
 function clear() {
 	startTime = 0;
 	time = 0;
 	document.getElementById('start').innerHTML = 'start';
 	document.getElementById('stopwatch').innerHTML = '00:00:00.00';
-	var text = document.getElementById('text');
-	text.innerHTML = " ";
+    var text_stop = document.getElementById('text_stop');
+	var text_split = document.getElementById('text_split');
+	text_stop.innerHTML = " ";
+	text_split.innerHTML = " ";
 }
 
 function increment() {
@@ -53,20 +65,10 @@ function increment() {
             }
             document.getElementById('stopwatch').innerHTML = hours + ':' + mins + ':' + secs + '.' + tenths;
             increment();
-        }, 10);
+        }, 7);
     }
 }
 
-function split() {
-         var text = document.getElementById('text');
-         var split = document.createElement('div');
-         split.className = 'splitItem';
-         var allSplits = document.getElementsByClassName('splitItem');
-         var actSplits = allSplits.length;
-         var newText = document.getElementById('stoptwatch').innerHTML;
-         split.innerHTML = "Split " + (actSplits + 1) + ": " + newText;
-         text.insertBefore(split, allSplits[0]);
-}
 
 document.getElementById('start').addEventListener('click', start);
 document.getElementById('split').addEventListener('click', split);
