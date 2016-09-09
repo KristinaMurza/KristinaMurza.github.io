@@ -1,13 +1,22 @@
-
 $(document).ready(function () {
-    $('ul.tabs li').css('cursor', 'pointer');
-    $('ul.tabs.tabs1 li').click(function () {
-        var thisClass = this.className.slice(0, 2);
-        $('div.t1').hide();
-        $('div.t2').hide();
-        $('div.t3').hide();
-        $('div.' + thisClass).show();
-        $('ul.tabs.tabs1 li').removeClass('tab-current');
-        $(this).addClass('tab-current');
+    $('ul.tabs').each(function () {
+        
+        var $active, $content, $links = $(this).find('a');
+        
+        $active = $($links.filter('[href="' + location.hash + '"]')[0] || $links[0]);
+        $active.addClass('active');
+        $content = $($active[0].hash);
+        $links.not($active).each(function () {
+            $(this.hash).hide();
+        });
+        $(this).on('click', 'a', function (e) {
+            $active.removeClass('active');
+            $content.hide();
+            $active = $(this);
+            $content = $(this.hash);
+            $active.addClass('active');
+            $content.show();
+            e.preventDefault();
+        });
     });
 });

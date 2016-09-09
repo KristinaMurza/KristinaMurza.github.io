@@ -84,11 +84,11 @@ ul.tabs li.tab-current a {
 	border: 1px solid #DDD;
 	border-bottom: 1px solid #EFEFEF;
 }
-div.t2, div.t3, div.t4 {
+div#tab2, div#tab3 {
 	display: none;
     
 }
-div.t1, div.t2, div.t3, div.t4 {
+div#tab1, div#tab2, div#tab3 {
 	border: 1px solid #DDD;
 	background: #EFEFEF;
 	padding: 0 12px;
