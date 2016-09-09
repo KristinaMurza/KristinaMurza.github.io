@@ -1,4 +1,4 @@
-$(document).ready(function () {
+$(function () {
     $('ul.tabs').each(function () {
         
         var $active, $content, $links = $(this).find('a');
