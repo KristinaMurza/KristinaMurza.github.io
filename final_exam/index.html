@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/jcarousel.responsive.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.4/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script> <!--для работы с IE8-->
     <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
-    <script src="js/masonry.pkgd.min.jsm"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jcarousel/0.3.4/jquery.jcarousel.min.js"></script>
+    <script src="js/jcarousel.responsive.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body>
@@ -43,32 +46,26 @@
 
 <!--===================================================SLIDER 1=====================================================-->
             <div id="slider1" class="slider">
-               <div class="slider-container"  id="slider-container-slider1">
+               <div class="slider-container jcarousel">
             <ul>
-               <li class="slider-item">
-               <div>
+               <li>
                    <img src="images/1.png" alt="">
-               </div>
                 <div class="section_slider_text">
                  <a class="slider_button" href="#">step 1</a>
                  <h1 class="slider_title">Sed leo enim, condimentum</h1>
                  <h2 class="slider_subtitle">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
                 </div>
                </li>
-               <li class="slider-item">
-               <div>
+               <li>
                    <img src="images/1.png" alt="">
-               </div>
                 <div class="section_slider_text">
                  <a class="slider_button" href="#">step 1</a>
                  <h1 class="slider_title">Sed leo enim, condimentum</h1>
                  <h2 class="slider_subtitle">Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</h2>
                 </div>
                </li>
-                <li class="slider-item">
-               <div>
+                <li>
                    <img src="images/1.png" alt="">
-               </div>
                 <div class="section_slider_text">
                  <a class="slider_button" href="#">step 1</a>
                  <h1 class="slider_title">Sed leo enim, condimentum</h1>
@@ -77,18 +74,18 @@
                 </li>
                 </ul>  
                 <div class="section_slider1__img" >
-                    <img class="slider-container__navigation--left prev-slide" src="images/left.png" alt="">
-                    <img class="slider-container__navigation--right next-slide" src="images/right.png" alt="">
+                    <img class="slider-container__navigation--left jcarousel-control-prev" src="images/left.png" alt="">
+                    <img class="slider-container__navigation--right next-slide jcarousel-control-next" src="images/right.png" alt="">
                 </div>
                </div>
              </div>
                
 <!--===================================================SLIDER 2=====================================================-->
             <div id="slider2" class="slider">
-               <div class="slider-container"  id="slider-container-slider1">
+               <div class="slider-container jcarousel">
                 <ul>
                 <li>
-                   <div><img src="images/2.png" alt=""></div>
+                   <img src="images/2.png" alt="">
                     <div class="section_slider_text section_slider2_text">
                      <a class="slider_button" href="#">step 2</a>
                      <h1 class="slider_title">Morbi velit risus</h1>
@@ -96,7 +93,7 @@
                     </div>
                 </li>
                 <li>
-                   <div><img src="images/2.png" alt=""></div>
+                   <img src="images/2.png" alt="">
                     <div class="section_slider_text section_slider2_text">
                      <a class="slider_button" href="#">step 2</a>
                      <h1 class="slider_title">Morbi velit risus</h1>
@@ -104,7 +101,7 @@
                     </div>
                 </li>
                 <li>
-                   <div><img src="images/2.png" alt=""></div>
+                   <img src="images/2.png" alt="">
                     <div class="section_slider_text section_slider2_text">
                      <a class="slider_button" href="#">step 2</a>
                      <h1 class="slider_title">Morbi velit risus</h1>
@@ -113,20 +110,18 @@
                 </li>   
                 </ul> 
                 <div class="section_slider2__img">
-                    <img class="slider-container__navigation--left prev-slide" src="images/left.png" alt="">
-                    <img class="slider-container__navigation--right next-slide" src="images/right.png" alt="">
+                    <img class="slider-container__navigation--left jcarousel-control-prev" src="images/left.png" alt="">
+                    <img class="slider-container__navigation--right jcarousel-control-next" src="images/right.png" alt="">
                 </div>
                </div>
             </div>
             
 <!--===================================================SLIDER 3=====================================================-->          
             <div id="slider3" class="slider">
-               <div class="slider-container"  id="slider-container-slider1">
+               <div class="slider-container jcarousel">
                 <ul>
                 <li>
-                   <div>
                    <img src="images/3.png" alt="">
-                   </div>
                     <div class="section_slider_text">
                      <a class="slider_button" href="#">step 3</a>
                      <h1 class="slider_title">Sed leo enim, condimentum</h1>
@@ -134,9 +129,7 @@
                     </div>
                 </li>
                 <li>
-                   <div>
                    <img src="images/3.png" alt="">
-                   </div>
                     <div class="section_slider_text">
                      <a class="slider_button" href="#">step 3</a>
                      <h1 class="slider_title">Sed leo enim, condimentum</h1>
@@ -144,9 +137,7 @@
                     </div>
                 </li>
                 <li>
-                   <div>
                    <img src="images/3.png" alt="">
-                   </div>
                     <div class="section_slider_text">
                      <a class="slider_button" href="#">step 3</a>
                      <h1 class="slider_title">Sed leo enim, condimentum</h1>
@@ -155,8 +146,8 @@
                 </li>
                 </ul>   
                 <div class="section_slider3__img">
-                    <img class="slider-container__navigation--left prev-slide" src="images/left.png" alt="">
-                    <img class="slider-container__navigation--right next-slide" src="images/right.png" alt="">
+                    <img class="slider-container__navigation--left jcarousel-control-prev" src="images/left.png" alt="">
+                    <img class="slider-container__navigation--right jcarousel-control-next" src="images/right.png" alt="">
                 </div>
                </div>
             </div>   
@@ -214,48 +205,28 @@
         <div class="wrapper-section_text">
         <h1 class="wrapper-section_text__title">Discover holiday activity ideas</h1>
         </div>
-        <div id="grid">
-                <div class="item item-widht1">
-                        <h1 class="item-title__text1">Sport and Activity</h1>
-                        <img class="item-widht__img1" src="images/Group1.png" alt="">
-                        <img class="item-widht__img1__tablet" src="images/img_tablet/Group1.png" alt="">
-                        <img class="item-widht__img1__mobile" src="images/img_mobile/Group1.png" alt="">
+        <div class="grid">
+               <div class="grid-sizer"></div>
+                <div class="grid-item item-widht1">
+                        <a class="item-title__text1">Sport and Activity</a>
                 </div>
-                <div class="item item-widht2">
-                        <h1 class="item-title__text2">Wellnes and Health</h1>
-                        <img class="item-widht__img2" src="images/Group2.png" alt="">
-                        <img class="item-widht__img2__tablet" src="images/img_tablet/Group2.png" alt="">
-                        <img class="item-widht__img2__mobile" src="images/img_mobile/Group2.png" alt="">
+                <div class="grid-item item-widht2">
+                        <a class="item-title__text2">Wellnes and Health</a>
                 </div>
-                <div class="item item-widht3">
-                        <h1 class="item-title__text3">Extreme Sports and Expeditions</h1>
-                        <img class="item-widht__img3" src="images/Group3.png" alt="">
-                        <img class="item-widht__img3__tablet" src="images/img_tablet/Group3.png" alt="">
-                        <img class="item-widht__img3__mobile" src="images/img_mobile/Group3.png" alt="">
+                <div class="grid-item item-widht3">
+                        <a class="item-title__text3">Extreme Sports and Expeditions</a>
                 </div>
-                <div class="item item-widht4">
-                        <h1 class="item-title__text4">Games</h1>
-                        <img class="item-widht__img4" src="images/Group4.png" alt="">
-                        <img class="item-widht__img4__tablet" src="images/img_tablet/Group4.png" alt="">
-                        <img class="item-widht__img4__mobile" src="images/img_mobile/Group4.png" alt="">
+                <div class="grid-item item-widht4">
+                        <a class="item-title__text4">Games</a>
                 </div>
-                <div class="item item-widht5">
-                        <h1 class="item-title__text5">Culture and Education</h1>
-                        <img class="item-widht__img5" src="images/Group5.png" alt="">
-                        <img class="item-widht__img5__tablet" src="images/img_tablet/Group5.png" alt="">
-                        <img class="item-widht__img5__mobile" src="images/img_mobile/Group5.png" alt="">
+                <div class="grid-item grid-item--width2">
+                        <a class="item-title__text5">Culture and Education</a>
                 </div>
-                <div class="item item-widht6">
-                        <h1 class="item-title__text6">Relaxation</h1>
-                        <img class="item-widht__img6" src="images/Group6.png" alt="">
-                        <img class="item-widht__img6__tablet" src="images/img_tablet/Group6.png" alt="">
-                        <img class="item-widht__img6__mobile" src="images/img_mobile/Group6.png" alt="">
+                <div class="grid-item grid-item--width2">
+                        <a class="item-title__text6">Relaxation</a>
                 </div>
-                <div class="item item-widht7">
-                        <h1 class="item-title__text7">Travelling</h1>
-                        <img class="item-widht__img7" src="images/Group7.png" alt="">
-                        <img class="item-widht__img7__tablet" src="images/img_tablet/Group7.png" alt="">
-                        <img class="item-widht__img7__mobile" src="images/img_mobile/Group7.png" alt="">
+                <div class="grid-item item-widht7">
+                        <a class="item-title__text7">Travelling</a>
                 </div>
             </div>
         </div>
