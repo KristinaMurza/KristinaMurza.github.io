@@ -1,10 +1,10 @@
-//$(document).ready(function () {
-//    $('#grid').masonry({
-//        // options
-//        itemSelector: '.item',
-//        columnWidth: '.item'
-//    });
-//});
+$(document).ready(function () {
+    $('.grid').masonry({
+        // options
+        itemSelector: '.grid-item',
+        columnWidth: '.grid-item'
+    });
+});
 
 $(function() {
 	// jcarousel
@@ -90,7 +90,7 @@ $(document).ready(function (Masonry) {
             // here we also must add text
             items[i].childNodes[0].childNodes[0].innerHTML = data.hits[i].tags;
             // after text added top property must be calculated and set
-            items[i].childNodes[0].childNodes[0].style.top = (items[i].offsetHeight - items[i].childNodes[0].childNodes[0].offsetHeight) / 2 + "px";
+            items[i].childNodes[0].childNodes[0].style.top = (items[i].offsetHeight - items[i].childNodes[0].childNodes[0].offsetHeight) / 3 + "px";
         }
 
     }
