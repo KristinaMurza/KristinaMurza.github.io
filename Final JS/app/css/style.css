@@ -82,7 +82,7 @@ header {
     font-family: 'Montserrat Bold', sans-serif;
 }
 .wrapper-section {
-    width: 100%;
+    width: 95%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
