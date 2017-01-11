@@ -45,7 +45,7 @@ header {
     width: 62%;
 }
 .header-logo {
-    width: 80%;  
+    width: 90%;  
     height: 210px;
     margin: 0 auto;
 }
@@ -82,7 +82,7 @@ header {
     font-family: 'Montserrat Bold', sans-serif;
 }
 .wrapper-section {
-    width: 85%;
+    width: 95%;
     margin: 0px auto;
     display: flex;
     flex-direction: column;
@@ -97,7 +97,7 @@ header {
 .wrapper-section_text {
     height: 145px;
     margin: 0 auto;
-    width: 50%;
+    width: 65%;
 }
 .section_title {
     font-size: 52px;
@@ -132,7 +132,7 @@ header {
 
 .wrapper-section_slider__text {
     height: 155px;
-    width: 31%;
+    width: 50%;
     margin: 0 auto;
 }
 .wrapper-section_text__title {
