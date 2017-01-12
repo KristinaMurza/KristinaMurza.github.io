@@ -5,6 +5,7 @@
     top: 2em;
 }
 
+
 /** Carousel **/
 
 .jcarousel {
@@ -21,8 +22,9 @@
     margin: 0;
     padding: 0;
 }
+
 .jcarousel li {
-    width: 200px; 
+    width: 200px;
     float: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -32,9 +34,10 @@
 
 .jcarousel img {
     display: block;
-    max-width: 210px;
+    max-width: 220px;
     height: auto !important;
 }
+
 
 /** Carousel Controls **/
 
@@ -55,6 +58,7 @@
 .jcarousel-control-next {
     right: -5%;
 }
+
 
 /** Carousel Pagination **/
 
@@ -86,5 +90,50 @@
     background: #4E443C;
     color: #fff;
     opacity: 1;
-    
+}
+
+@media (max-width: 1300px) {
+    .jcarousel li {
+        margin: 0 25px 0 18px;
+    }
+}
+
+@media (max-width: 990px) {
+    .jcarousel-wrapper {
+        width: 91%;
+    }
+}
+
+@media (max-width: 890px) {
+    .jcarousel-wrapper {
+        width: 80%;
+    }
+    .jcarousel li {
+        margin: 0 28px 0 40px;
+    }
+}
+
+@media (max-width: 720px) {
+    .jcarousel-wrapper {
+        width: 90%;
+    }
+    .jcarousel li {
+        margin: 0 34px 0 34px;
+    }
+}
+
+@media (max-width: 620px) {
+    .jcarousel-wrapper {
+        width: 80%;
+    }
+    .jcarousel li {
+        margin: 0 100px 0 12px;
+    }
+}
+
+@media (max-width: 460px) {
+    .jcarousel-wrapper {
+        width: 90%;
+        top: 0em;
+    }
 }

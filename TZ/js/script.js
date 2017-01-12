@@ -1,7 +1,3 @@
-$("#header__button").click(function () {
-  $(this).toggleClass("hamburger--open");
-});
-
 $(function () {
     $('ul.tabs').each(function () {
         
@@ -24,3 +20,6 @@ $(function () {
         });
     });
 });
+//$("#header__button").click(function () {
+//  $(this).toggleClass("hamburger--open");
+//});

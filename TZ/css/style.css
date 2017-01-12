@@ -1,26 +1,34 @@
 * {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: "Arial", sans-serif;
 }
+
+header {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .header_wrapper_section {
     margin: 0 auto;
     width: 97%;
     height: 50%;
 }
+
 .header_wrapper {
     margin: 0 auto;
-    width: 63%;
+    width: 100%;
     height: 175px;
     background: linear-gradient(to top, rgba(253, 253, 253, 1), #f8f8f8, rgba(254, 254, 254, 1));
     background: -webkit-linear-gradient(top, rgba(253, 253, 253, 1), #f8f8f8, rgba(254, 254, 254, 1));
-    
 }
+
 .header_logo {
     background-image: url(../img/header_logo.png);
     background-position: left top 6px;
@@ -29,6 +37,7 @@ body {
     height: 100%;
     float: left;
 }
+
 .number {
     width: 32%;
     height: 60px;
@@ -39,12 +48,14 @@ body {
     font-style: italic;
     float: left;
 }
+
 span {
     font-size: 34px;
     text-decoration: none;
     color: #333333;
     font-weight: 800;
 }
+
 .number a {
     font-size: 13px;
     text-decoration: none;
@@ -52,11 +63,13 @@ span {
     border-bottom: 1px dashed #000080;
     float: right;
 }
+
 form {
     width: 87%;
     height: 40px;
     padding-top: 17px;
 }
+
 .input {
     float: right;
     width: 100%;
@@ -65,6 +78,7 @@ form {
     padding-left: 12px;
     border: 2px solid #ebebeb;
 }
+
 .input_button {
     position: absolute;
     top: 4.7em;
@@ -75,20 +89,30 @@ form {
     border: 0.5px solid #e6e6e6;
     height: 22px;
 }
+
 .fa-level-down {
-     -moz-transform: rotate(90deg); /* Для Firefox */
-    -ms-transform: rotate(90deg); /* Для IE */
-    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(90deg); /* Для Opera */
+    -moz-transform: rotate(90deg);
+    /* Для Firefox */
+    -ms-transform: rotate(90deg);
+    /* Для IE */
+    -webkit-transform: rotate(90deg);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg);
+    /* Для Opera */
     transform: rotate(90deg);
 }
+
 input:focus {
     outline: none;
 }
+
+
 /*==========================*/
+
 .help {
     float: left;
 }
+
 .help_button {
     width: 88px;
     height: 90px;
@@ -104,9 +128,11 @@ input:focus {
     top: 0.6em;
     left: 54.4%;
 }
+
 button:focus {
     outline: none;
 }
+
 .help_button_img {
     background-image: url(../img/icon_men.png);
     background-repeat: no-repeat;
@@ -116,6 +142,7 @@ button:focus {
     position: -ms-page;
     top: -7px;
 }
+
 .help_button a {
     width: 84px;
     margin: 0 auto;
@@ -129,13 +156,17 @@ button:focus {
     color: #333333;
     text-align: center;
 }
+
+
 /*==============================*/
-.user { 
+
+.user {
     float: right;
     height: 98px;
     text-align: right;
     width: 14em;
 }
+
 .user_img {
     background-image: url(../img/user_business.png);
     background-position: left 11px top 7px;
@@ -146,18 +177,21 @@ button:focus {
     width: 14em;
     padding-top: 10px;
 }
+
 .user_href {
     color: #105a8f;
     text-decoration: none;
     border-bottom: 1px dashed #000080;
     font-size: 13px;
 }
+
 .user_href_text {
     color: #105a8f;
     text-decoration: none;
     border-bottom: 1px dashed #000080;
     font-size: 13px;
 }
+
 .user_button {
     width: 93%;
     height: 57px;
@@ -165,6 +199,7 @@ button:focus {
     border: 2px solid #cecdcd;
     border-radius: 5px 5px;
 }
+
 .user_button_img {
     background-image: url(../img/pocupki.png);
     background-position: left 12px center;
@@ -172,40 +207,49 @@ button:focus {
     height: 52px;
     padding-top: 7px;
 }
-.user_button_img a { 
+
+.user_button_img a {
     color: #105a8f;
     font-size: 25px;
     font-weight: 600;
     padding-left: 29px;
 }
+
 .user_button:after {
     content: "";
     border-left: 5px solid transparent;
     border-top: 12px solid #3a607b;
-    border-right:  5px solid transparent;
+    border-right: 5px solid transparent;
     position: absolute;
     left: 79.3%;
     top: 4.8em;
 }
+
+
 /*============HEADER-MENU================*/
+
 .header_menu {
     width: 100%;
     font-size: 13px;
     line-height: 40px;
     float: left;
 }
+
 ul.main_menu {
     height: 58px;
     width: 100%;
 }
+
 ul.main_menu li {
     float: left;
     list-style: none;
 }
+
 ul.main_menu li a {
     padding-right: 14px;
     color: #105a8f;
 }
+
 .header_menu_help_img {
     background-image: url(../img/help.png);
     background-repeat: no-repeat;
@@ -217,16 +261,23 @@ ul.main_menu li a {
     height: 17px;
     float: left;
 }
+
 #menu-button {
     display: none;
 }
+
+
 /*============MENU==================*/
-.dropdown-toggle, .dropdown-text {
+
+.dropdown-toggle,
+.dropdown-text {
     display: none;
 }
+
 .section_menu {
     height: 55px;
 }
+
 ul.menu {
     height: 58px;
     width: 61.4%;
@@ -238,6 +289,7 @@ ul.menu {
     border-radius: 5px 5px;
     -webkit-border-radius: 5px 5px;
 }
+
 ul.menu li {
     width: 16.6%;
     float: left;
@@ -247,17 +299,20 @@ ul.menu li {
     height: 100%;
     padding-left: 3%;
 }
+
 ul.menu li a {
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
     color: #fff;
 }
+
 .menu li {
     border-right: 2px solid #32729a;
 }
-.menu li:before{
-    content:"";
+
+.menu li:before {
+    content: "";
     position: relative;
     top: 1.5em;
     border-left: 5px solid transparent;
@@ -265,12 +320,21 @@ ul.menu li a {
     border-right: 5px solid transparent;
     left: 8.5em;
 }
+
+
 /*==============SLIDER======================*/
+
+section {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .section {
     margin: 0 auto;
-    width: 61%;
+    width: 97%;
     height: 293px;
 }
+
 .wrapper_slider {
     background-image: url(../img/server.png);
     background-position: left top;
@@ -279,16 +343,19 @@ ul.menu li a {
     float: left;
     height: 95%;
 }
+
 ol.slider_number {
     position: relative;
     top: 15em;
     left: 1%;
 }
+
 ol.slider_number li {
     width: 25px;
     height: 21px;
     float: left;
 }
+
 ol.slider_number li a {
     color: #fff;
     background: #689cbe;
@@ -298,6 +365,7 @@ ol.slider_number li a {
     font-size: 14px;
     float: left;
 }
+
 ol.slider_number li a:hover {
     cursor: pointer;
     background: #ffffff;
@@ -306,13 +374,15 @@ ol.slider_number li a:hover {
     border-left: 3px solid #689cbe;
     border-right: 3px solid #689cbe;
 }
+
 .slider_text {
     position: relative;
-    top: 1em;  
+    top: 1em;
     left: -22em;
     float: right;
     width: 50%;
 }
+
 .section_title {
     width: 14em;
     height: 78px;
@@ -320,27 +390,34 @@ ol.slider_number li a:hover {
     font-size: 30px;
     color: #6640c7;
 }
+
 .section_title_text {
     width: 68%;
     height: 71px;
     line-height: 20px;
 }
+
 .section_title_button {
     width: 14.5em;
     height: 47px;
     font-size: 19px;
     border: 2px solid #696969;
     background: linear-gradient(to top left, #5e0477, #61057b, #600478, #3a92cb, #20c4d0);
-    background: -webkit-linear-gradient(-45deg, rgba(183,222,237,1) 0%, rgba(33,180,226,1) 16%, rgba(99,62,179,1) 45%, rgba(56,23,128,1) 76%, rgba(56,23,128,1) 100%); /* Chrome10+,Safari5.1+ */
+    background: -webkit-linear-gradient(-45deg, rgba(183, 222, 237, 1) 0%, rgba(33, 180, 226, 1) 16%, rgba(99, 62, 179, 1) 45%, rgba(56, 23, 128, 1) 76%, rgba(56, 23, 128, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
     color: #fff;
 }
+
+
 /*=============================*/
+
 .section_wrapper_text {
     height: 290px;
     width: 31%;
     font-size: 13px;
     float: right;
 }
+
 .section_wrapper_title {
     height: 44px;
     color: #d10000;
@@ -349,6 +426,7 @@ ol.slider_number li a:hover {
     font-weight: 600;
     padding-left: 12px;
 }
+
 .kasperski {
     height: 22%;
     padding-left: 23%;
@@ -357,6 +435,7 @@ ol.slider_number li a:hover {
     background-repeat: no-repeat;
     line-height: 16px;
 }
+
 .FR {
     height: 23%;
     padding-left: 23%;
@@ -365,6 +444,7 @@ ol.slider_number li a:hover {
     background-repeat: no-repeat;
     line-height: 21px;
 }
+
 .windows {
     height: 23%;
     padding-left: 23%;
@@ -373,10 +453,14 @@ ol.slider_number li a:hover {
     background-repeat: no-repeat;
     line-height: 18px;
 }
-.kasperski_text a:hover, .FR_text a:hover, .windows_text a:hover {
+
+.kasperski_text a:hover,
+.FR_text a:hover,
+.windows_text a:hover {
     cursor: pointer;
     color: #6611cc;
 }
+
 .wrapper_section_button {
     width: 129px;
     height: 28px;
@@ -389,20 +473,28 @@ ol.slider_number li a:hover {
     padding-left: 6px;
     font-weight: 600;
 }
-.kasperski_text a, .FR_text a, .windows_text a,
+
+.kasperski_text a,
+.FR_text a,
+.windows_text a,
 .wrapper_section_button a {
     color: #105a8f;
 }
+
+
 /*=============SLIDER-TABS===========*/
+
 .wrapper_section {
     margin: 0 auto;
-    width: 61%;
+    width: 97%;
     height: 423px;
 }
+
 .section_tabs {
     width: 100%;
     height: 300px;
 }
+
 ul.tabs {
     height: 47px;
     list-style: none;
@@ -410,6 +502,7 @@ ul.tabs {
     font-style: italic;
     line-height: 47px;
 }
+
 ul.tabs li {
     width: 15%;
     float: left;
@@ -419,28 +512,33 @@ ul.tabs li {
     text-align: center;
     cursor: pointer;
 }
+
 ul.tabs li a {
     text-decoration: none;
-    border-bottom: 1px dashed #000080; 
+    border-bottom: 1px dashed #000080;
 }
-ul.tabs li a:focus  {
-        color: #d10000; 
+
+ul.tabs li a:focus {
+    color: #d10000;
 }
-.tabs li.active, .tabs li.active:hover{
-    background: linear-gradient(to top, rgba(250, 249, 249, 1), rgba(235, 235, 235, 1),#efefef);
-    background: -webkit-linear-gradient(top, rgba(250, 249, 249, 1), rgba(235, 235, 235, 1),#efefef);
-    background:  -ms-linear-gradient(top, rgba(250, 249, 249, 1), rgba(235, 235, 235, 1),#efefef);
+
+.tabs li.active,
+.tabs li.active:hover {
+    background: linear-gradient(to top, rgba(250, 249, 249, 1), rgba(235, 235, 235, 1), #efefef);
+    background: -webkit-linear-gradient(top, rgba(250, 249, 249, 1), rgba(235, 235, 235, 1), #efefef);
+    background: -ms-linear-gradient(top, rgba(250, 249, 249, 1), rgba(235, 235, 235, 1), #efefef);
     border-bottom: none;
     font-size: 20px;
-    border-radius: 5px 5px 0  0;
-    border-top: 1px solid #689cbe; 
-    border-left: 1px solid #689cbe; 
+    border-radius: 5px 5px 0 0;
+    border-top: 1px solid #689cbe;
+    border-left: 1px solid #689cbe;
     border-right: 1px solid #689cbe;
     width: 23%;
     text-align: center;
     color: #d10000;
     cursor: pointer;
 }
+
 div#tab1 {
     border: 1px solid #689cbe;
     width: 100%;
@@ -448,7 +546,10 @@ div#tab1 {
     height: 335px;
     border-radius: 0 5px 5px 5px;
 }
+
+
 /*===============================================*/
+
 .tab_button {
     width: 17em;
     height: 1.8em;
@@ -461,20 +562,29 @@ div#tab1 {
     text-align: left;
     cursor: pointer;
 }
+
 .tab_button a {
     color: #105a8f;
     font-size: 14px;
     font-weight: 600;
 }
+
+
 /*----------------ASUS-----------------------*/
-.asus_img, .samsung_img, .vision_img, .msi_img  {
+
+.asus_img,
+.samsung_img,
+.vision_img,
+.msi_img {
     position: relative;
     top: -7em;
 }
+
 .apple_img {
     position: relative;
     top: -8em;
 }
+
 .asus_gift {
     height: 100px;
     width: 60px;
@@ -485,21 +595,27 @@ div#tab1 {
     left: 120px;
     background-color: #fff;
 }
+
 .asus_gift:after {
     content: "";
     border-left: 5px solid transparent;
     border-top: 10px solid #fff;
-    border-right:  5px solid transparent;
-    -moz-transform: rotate(90deg); /* Для Firefox */
-    -ms-transform: rotate(90deg); /* Для IE */
-    -webkit-transform: rotate(90deg); /* Для Safari, Chrome, iOS */
-    -o-transform: rotate(90deg); /* Для Opera */
+    border-right: 5px solid transparent;
+    -moz-transform: rotate(90deg);
+    /* Для Firefox */
+    -ms-transform: rotate(90deg);
+    /* Для IE */
+    -webkit-transform: rotate(90deg);
+    /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(90deg);
+    /* Для Opera */
     transform: rotate(90deg);
     left: -17%;
     top: 1.3em;
     float: left;
     position: absolute;
 }
+
 .asus_title {
     position: relative;
     font-size: 13px;
@@ -507,9 +623,11 @@ div#tab1 {
     width: 14em;
     top: -9em;
 }
+
 .title_text {
     color: #d10000;
 }
+
 .asuss_button {
     width: 9em;
     height: 26px;
@@ -528,11 +646,13 @@ div#tab1 {
     text-align: left;
     font-style: italic;
 }
+
 .title_text_button {
     text-decoration: none;
     color: #333333;
     font-weight: 800;
 }
+
 .asus_summa_dolors {
     position: relative;
     top: 0.8em;
@@ -540,14 +660,18 @@ div#tab1 {
     font-size: 11px;
     color: #5c9559;
 }
+
+
 /*------------------SAMSUNG---------------------*/
+
 .samsung_title {
     width: 13em;
     font-size: 13px;
     line-height: 20px;
     position: relative;
-    top: -1em;
+    top: -2em;
 }
+
 .sale {
     color: #999999;
     font-size: 15px;
@@ -555,6 +679,7 @@ div#tab1 {
     text-decoration: line-through;
     text-decoration-color: #d10000;
 }
+
 .samsung_button {
     width: 70%;
     height: 26px;
@@ -573,6 +698,7 @@ div#tab1 {
     text-align: left;
     font-style: italic;
 }
+
 .summa_dolors {
     position: relative;
     top: 0.8em;
@@ -580,7 +706,10 @@ div#tab1 {
     font-size: 11px;
     color: #5c9559;
 }
+
+
 /*-----------------------VISION----------------------*/
+
 .vision_title {
     width: 12em;
     font-size: 13px;
@@ -588,6 +717,7 @@ div#tab1 {
     position: relative;
     top: -1em;
 }
+
 .vision_button {
     width: 9em;
     height: 26px;
@@ -606,6 +736,7 @@ div#tab1 {
     text-align: left;
     font-style: italic;
 }
+
 .summa_dolors {
     position: relative;
     top: -0.2em;
@@ -613,7 +744,10 @@ div#tab1 {
     font-size: 11px;
     color: #5c9559;
 }
+
+
 /*---------------APPLE------------------------------*/
+
 .apple_title {
     width: 12em;
     font-size: 13px;
@@ -621,6 +755,7 @@ div#tab1 {
     position: relative;
     top: -4em;
 }
+
 .apple_button {
     width: 9.7em;
     height: 26px;
@@ -639,6 +774,7 @@ div#tab1 {
     text-align: left;
     font-style: italic;
 }
+
 .apple_summa_dolors {
     position: relative;
     top: 0em;
@@ -646,14 +782,18 @@ div#tab1 {
     font-size: 11px;
     color: #5c9559;
 }
+
+
 /*---------------MSI-------------------*/
+
 .msi_title {
     width: 12em;
     font-size: 13px;
     line-height: 22px;
     position: relative;
-    top: -1em;
+    top: -2em;
 }
+
 .msi_button {
     width: 9.7em;
     height: 26px;
@@ -672,6 +812,7 @@ div#tab1 {
     text-align: left;
     font-style: italic;
 }
+
 .msi_summa_dolors {
     position: relative;
     top: 0em;
@@ -679,13 +820,22 @@ div#tab1 {
     font-size: 11px;
     color: #5c9559;
 }
+
+
 /*=============BREND=======================*/
+
+wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 .wrapper {
     width: 61%;
     margin: 0 auto;
     height: 364px;
     border-bottom: 1px solid #e6e6e6;
 }
+
 .wrapper_brend_button {
     width: 15em;
     height: 1.8em;
@@ -697,17 +847,22 @@ div#tab1 {
     border: 1px solid #e4e4e4;
     text-align: left;
 }
+
 .wrapper_brend_button a {
     color: #105a8f;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
 }
+
+
 /*-------------------------*/
+
 .brend_logo {
     padding-top: 1.5em;
     height: 178px;
 }
+
 .brend_atendt {
     height: 75px;
     width: 11.7%;
@@ -718,6 +873,7 @@ div#tab1 {
     border-right: 1px solid #e5e4e4;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_toshiba {
     height: 75px;
     width: 11.7%;
@@ -728,6 +884,7 @@ div#tab1 {
     border-right: 1px solid #e5e4e4;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_apple_logo {
     height: 75px;
     width: 11.7%;
@@ -738,6 +895,7 @@ div#tab1 {
     border-right: 1px solid #e5e4e4;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_microsoft {
     height: 75px;
     width: 11.7%;
@@ -748,6 +906,7 @@ div#tab1 {
     border-right: 1px solid #e5e4e4;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_cisco {
     height: 75px;
     width: 11.7%;
@@ -758,6 +917,7 @@ div#tab1 {
     border-right: 1px solid #e5e4e4;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_panasonic {
     height: 75px;
     width: 11.7%;
@@ -768,6 +928,7 @@ div#tab1 {
     border-right: 1px solid #e5e4e4;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_nokia {
     height: 75px;
     width: 11.7%;
@@ -778,6 +939,7 @@ div#tab1 {
     border-right: 1px solid #e5e4e4;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_samsung_logo {
     height: 75px;
     width: 11.7%;
@@ -787,6 +949,7 @@ div#tab1 {
     float: left;
     border-bottom: 1px solid #e5e4e4;
 }
+
 .brend_ibm {
     height: 75px;
     width: 11.7%;
@@ -796,6 +959,7 @@ div#tab1 {
     float: left;
     border-right: 1px solid #e5e4e4;
 }
+
 .brend_dell {
     height: 75px;
     width: 11.7%;
@@ -805,6 +969,7 @@ div#tab1 {
     float: left;
     border-right: 1px solid #e5e4e4;
 }
+
 .brend_intel {
     height: 75px;
     width: 11.7%;
@@ -814,6 +979,7 @@ div#tab1 {
     float: left;
     border-right: 1px solid #e5e4e4;
 }
+
 .brend_amd {
     height: 75px;
     width: 11.7%;
@@ -823,6 +989,7 @@ div#tab1 {
     float: left;
     border-right: 1px solid #e5e4e4;
 }
+
 .brend_lenovo {
     height: 75px;
     width: 11.7%;
@@ -832,6 +999,7 @@ div#tab1 {
     float: left;
     border-right: 1px solid #e5e4e4;
 }
+
 .brend_asus_logo {
     height: 75px;
     width: 11.7%;
@@ -841,6 +1009,7 @@ div#tab1 {
     float: left;
     border-right: 1px solid #e5e4e4;
 }
+
 .brend_nec {
     height: 75px;
     width: 11.7%;
@@ -850,6 +1019,7 @@ div#tab1 {
     float: left;
     border-right: 1px solid #e5e4e4;
 }
+
 .brend_kasper {
     height: 75px;
     width: 11.7%;
@@ -858,7 +1028,10 @@ div#tab1 {
     background-repeat: no-repeat;
     float: left;
 }
+
+
 /*--------------------------------------*/
+
 .brend_link {
     width: 100%;
     font-size: 11px;
@@ -866,29 +1039,42 @@ div#tab1 {
     -moz-columns: 8 10px;
     columns: 8 10px;
 }
+
 .brend_link_colum a {
     display: block;
     height: 20px;
     padding-left: 10px;
     color: #105a8f;
 }
+
 .brend_link_colum a:hover {
     color: #d10000;
 }
+
+
 /*=================FOOTER==========================*/
+
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
 footer a {
     color: #105a8f;
 }
+
 footer a:hover {
     color: #6611cc;
 }
+
 .footer_wapper {
     margin: 0 auto;
-    width: 61%;
+    width: 97%;
     height: 464px;
     border-bottom: 4px solid #175b8e;
-    background: linear-gradient(to top, rgba(251, 251, 251, 1), rgba(255, 255, 255, 1)); 
+    background: linear-gradient(to top, rgba(251, 251, 251, 1), rgba(255, 255, 255, 1));
 }
+
 .footer_wapper_title {
     font-size: 20px;
     color: #333333;
@@ -896,6 +1082,7 @@ footer a:hover {
     font-weight: 800;
     letter-spacing: -1px;
 }
+
 .footer_wapper_button {
     width: 18em;
     height: 2em;
@@ -907,18 +1094,23 @@ footer a:hover {
     border: 1px solid #e4e4e4;
     text-align: left;
 }
-.footer_wapper_button a{
+
+.footer_wapper_button a {
     color: #105a8f;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
 }
+
 .fa-long-arrow-right {
     font-size: 20px;
     padding-left: 5px;
     color: #105a8f;
 }
+
+
 /*--------------SMART-----------------------*/
+
 .footer_articles_smart {
     width: 12%;
     height: 10em;
@@ -929,6 +1121,7 @@ footer a:hover {
     background-position: left center;
     background-repeat: no-repeat;
 }
+
 .footer_text_smart {
     position: relative;
     top: 10.5em;
@@ -936,12 +1129,16 @@ footer a:hover {
     font-size: 15px;
     line-height: 22px;
 }
+
 .footer_articles_text {
     line-height: 20px;
     font-size: 13px;
     padding-top: 0.5em;
 }
+
+
 /*---------------PRINTER------------------------*/
+
 .footer_articles_print {
     width: 12%;
     height: 10em;
@@ -952,6 +1149,7 @@ footer a:hover {
     background-position: left center;
     background-repeat: no-repeat;
 }
+
 .footer_text_print {
     position: relative;
     top: 9.7em;
@@ -959,7 +1157,10 @@ footer a:hover {
     font-size: 15px;
     line-height: 21px;
 }
+
+
 /*---------------NOTEBOOK------------------------*/
+
 .footer_articles_notebook {
     width: 12%;
     height: 10em;
@@ -970,6 +1171,7 @@ footer a:hover {
     background-position: left center;
     background-repeat: no-repeat;
 }
+
 .footer_text_notebook {
     position: relative;
     top: 10.2em;
@@ -977,7 +1179,10 @@ footer a:hover {
     font-size: 15px;
     line-height: 21px;
 }
+
+
 /*---------------HDD------------------------*/
+
 .footer_articles_hdd {
     width: 13%;
     height: 10em;
@@ -988,6 +1193,7 @@ footer a:hover {
     background-position: left center;
     background-repeat: no-repeat;
 }
+
 .footer_text_hdd {
     position: relative;
     top: 10.2em;
@@ -995,31 +1201,39 @@ footer a:hover {
     font-size: 15px;
     line-height: 21px;
 }
+
+
 /*===========================================*/
+
 .footer_section {
     margin: 0 auto;
-    width: 61%;
+    width: 97%;
     height: 423px;
     padding-top: 20px;
 }
+
 .footer_menu {
     width: 100%;
     font-size: 13px;
     line-height: 40px;
     display: flex;
 }
+
 ul.footer_main_menu {
     height: 58px;
     width: 100%;
 }
+
 ul.footer_main_menu li {
     float: left;
     list-style: none;
 }
+
 ul.footer_main_menu li a {
     padding-right: 14px;
     color: #105a8f;
 }
+
 .footer_menu_help_img {
     background-image: url(../img/help.png);
     background-repeat: no-repeat;
@@ -1031,17 +1245,22 @@ ul.footer_main_menu li a {
     height: 17px;
     float: left;
 }
-/*---------------------------------------*/ 
+
+
+/*---------------------------------------*/
+
 .footer_address {
     font-size: 12px;
     word-spacing: 3px;
 }
+
 .footer_number {
     font-size: 22px;
     line-height: 16px;
     height: 59px;
     width: 170px;
 }
+
 .footer_number a {
     line-height: 34px;
     font-size: 13px;
@@ -1049,6 +1268,7 @@ ul.footer_main_menu li a {
     border-bottom: 1px dashed #000080;
     color: #105a8f;
 }
+
 .footer_button {
     width: 13em;
     height: 2em;
@@ -1058,37 +1278,44 @@ ul.footer_main_menu li a {
     text-align: left;
     cursor: pointer;
 }
+
 .footer_button a {
     color: #105a8f;
     cursor: pointer;
     font-size: 11px;
     border-bottom: 1px dashed #000080
 }
+
 .communication_colum1_text {
-    width: 160px; 
+    width: 160px;
     font-size: 11px;
-    border-bottom: 1px solid; 
+    border-bottom: 1px solid;
     padding-top: 25px;
 }
+
 .footer_warpper_communication {
     width: 72%;
     line-height: 25px;
     padding-top: 13px;
     float: left;
 }
+
 .communication_colum1 {
     float: left;
     width: 30%;
 }
+
 .communication_colum2 {
     float: left;
     width: 40%;
 }
+
 .footer_mode {
     line-height: 23px;
     font-size: 13px;
     padding-left: 9px;
 }
+
 .footer_payment {
     width: 18em;
     height: 4.5em;
@@ -1099,17 +1326,24 @@ ul.footer_main_menu li a {
     font-size: 13px;
     padding-left: 9px;
 }
-.fa-facebook-official, .fa-vk, .fa-twitter-square {
+
+.fa-facebook-official,
+.fa-vk,
+.fa-twitter-square {
     font-size: 33px;
     line-height: 28px;
     color: #3c5fad;
 }
-.facebook, .vKontakte, .Twitter {
+
+.facebook,
+.vKontakte,
+.Twitter {
     font-size: 13px;
     display: block;
     float: right;
     padding-left: 12px;
 }
+
 .footer_logo {
     background-image: url(../img/owox.png);
     background-repeat: no-repeat;
@@ -1120,6 +1354,7 @@ ul.footer_main_menu li a {
     border-left: 1px solid #dddcdc;
     padding-top: 25px;
 }
+
 .footer_logo_text {
     font-size: 12px;
     width: 18em;
@@ -1128,23 +1363,25 @@ ul.footer_main_menu li a {
     float: right;
     padding-top: 17%;
 }
+
 acronym {
     color: #999999;
 }
-@media (max-width: 1300px) {
+
+@media (max-width: 1366px) {
     .header_wrapper_section {
         margin: 0 auto;
-        width: 100%;
+        width: 90%;
         height: 50%;
     }
     .header_wrapper {
         width: 90%;
     }
-/*=============================================*/
+    /*=============================================*/
     #menu-button {
         display: none;
     }
-/*=============================================*/
+    /*=============================================*/
     .number {
         width: 36%;
     }
@@ -1158,16 +1395,17 @@ acronym {
         left: 49%;
     }
     .help_button {
-       left: 60%;
+        left: 60%;
     }
-/*==============================*/
+    /*==============================*/
     .user_button:after {
-        left: 93%;
+        left: 86%;
     }
-/*============MENU==================*/
+    /*============MENU==================*/
     ul.menu {
-        width: 90%;
-        left: 5%;;
+        width: 80%;
+        left: 10%;
+        ;
     }
     ul.menu li {
         width: 16.6%;
@@ -1176,13 +1414,13 @@ acronym {
     ul.menu li a {
         font-size: 75%;
     }
-    .menu li:before{
+    .menu li:before {
         left: 91%;
     }
     .dropdown-toggle {
         display: none;
     }
-/*==============SLIDER======================*/
+    /*==============SLIDER======================*/
     .section {
         margin: 0 auto;
         width: 87%;
@@ -1202,7 +1440,7 @@ acronym {
         float: left;
     }
     .slider_text {
-        top: 1.5em;  
+        top: 1.5em;
         left: -12em;
         width: 61%;
     }
@@ -1213,82 +1451,93 @@ acronym {
         width: 285px;
         height: 76px;
     }
-/*=============================*/
+    /*=============================*/
     .section_wrapper_text {
         width: 32%;
     }
     .wrapper_section_button {
         margin-top: 5%
     }
-/*=============SLIDER-TABS===========*/
+    /*=============SLIDER-TABS===========*/
     .wrapper_section {
         width: 90%;
     }
     ul.tabs li {
         width: 20%;
     }
-    .tabs li.active, .tabs li.active:hover {
-       width: 28%;
+    .tabs li.active,
+    .tabs li.active:hover {
+        width: 28%;
     }
-/*===============================================*/
+    /*===============================================*/
     .tab_button {
         width: 16.5em;
         left: 72%;
     }
-/*=============BREND=======================*/
+    /*=============BREND=======================*/
     .wrapper {
-        width: 97%;
+        width: 85%;
     }
     .wrapper_brend_button {
-       left: 78%;
+        left: 75%;
     }
-/*-------------------------*/
+    /*-------------------------*/
     .brend_logo {
         padding-top: 0.2em;
         height: 162px;
     }
-    .brend_atendt, .brend_toshiba, .brend_apple_logo, 
-    .brend_microsoft, .brend_cisco, .brend_panasonic, 
-    .brend_nokia, .brend_samsung_logo, .brend_ibm, 
-    .brend_dell, .brend_intel, .brend_amd, .brend_lenovo,
-    .brend_asus_logo,.brend_nec,.brend_kasper {
+    .brend_atendt,
+    .brend_toshiba,
+    .brend_apple_logo,
+    .brend_microsoft,
+    .brend_cisco,
+    .brend_panasonic,
+    .brend_nokia,
+    .brend_samsung_logo,
+    .brend_ibm,
+    .brend_dell,
+    .brend_intel,
+    .brend_amd,
+    .brend_lenovo,
+    .brend_asus_logo,
+    .brend_nec,
+    .brend_kasper {
         height: 65px;
         width: 12.5%;
     }
-/*--------------------------------------*/
+    /*--------------------------------------*/
     .brend_link_colum a {
         padding-left: 3px;
     }
-/*=================FOOTER==========================*/
+    /*=================FOOTER==========================*/
     .footer_wapper {
-        width: 96%;
+        width: 90%;
     }
     .footer_wapper_button {
         left: 74%;
     }
-/*--------------SMART-----------------------*/
+    /*--------------SMART-----------------------*/
     .footer_articles_smart {
         width: 20%;
-        left: 2%;
+        left: 10%;
     }
     .footer_text_smart {
         /*! width: 13.5em; */
     }
-/*---------------PRINTER------------------------*/
+    /*---------------PRINTER------------------------*/
     .footer_articles_print {
         width: 20%;
-        left: 27%;
+        left: 33%;
     }
     .footer_text_print {
-        /*! width: 14.5em; */
         left: -0.5em;
     }
-/*---------------NOTEBOOK------------------------*/
+    /*---------------NOTEBOOK------------------------*/
     .footer_articles_notebook {
         width: 20%;
-        left: 51%;
+        left: 54%;
     }
-/*---------------HDD------------------------*/
+    /*---------------HDD------------------------*/
     .footer_articles_hdd {
         width: 20%;
         left: 76%;
@@ -1297,11 +1546,11 @@ acronym {
         width: 14.5em;
         left: -0.5em;
     }
-/*===========================================*/
+    /*===========================================*/
     .footer_section {
-        width: 96%;
+        width: 90%;
     }
-/*---------------------------------------*/ 
+    /*---------------------------------------*/
     .footer_warpper_communication {
         width: 80%;
     }
@@ -1338,16 +1587,17 @@ acronym {
         left: 48%;
     }
     .help_button {
-       left: 62%;
+        left: 62%;
     }
-/*==============================*/
+    /*==============================*/
     .user_button:after {
         left: 95.5%;
     }
-/*============MENU==================*/
+    /*============MENU==================*/
     ul.menu {
         width: 96%;
-        left: 2%;;
+        left: 2%;
+        ;
     }
     ul.menu li {
         width: 16.6%;
@@ -1357,17 +1607,17 @@ acronym {
     ul.menu li a {
         font-size: 75%;
     }
-    .menu li:before{
+    .menu li:before {
         left: 91%;
     }
-/*==============SLIDER======================*/
+    /*==============SLIDER======================*/
     .section {
         width: 96%;
         height: 315px;
     }
     .wrapper_slider {
-    position: relative;
-    left: -2%;
+        position: relative;
+        left: -2%;
     }
     ol.slider_number {
         top: 15em;
@@ -1379,70 +1629,83 @@ acronym {
         float: left;
     }
     .slider_text {
-        top: 1.5em;  
+        top: 1.5em;
         left: -12em;
     }
-/*=============================*/
+    /*=============================*/
     .section_wrapper_text {
         width: 31%;
     }
-/*=============SLIDER-TABS===========*/
+    /*=============SLIDER-TABS===========*/
     .wrapper_section {
         width: 97%;
     }
     ul.tabs li {
         width: 20%;
     }
-    .kasperski, .FR, .windows {
-       padding-left: 20%;
-       background-position: left top;
-       width: 90%;
-    } 
-    .wrapper_section_button {
-       margin-top: 15px;
-       width: 135px;
+    .kasperski,
+    .FR,
+    .windows {
+        padding-left: 20%;
+        background-position: left top;
+        width: 90%;
     }
-/*===============================================*/
+    .wrapper_section_button {
+        margin-top: 15px;
+        width: 135px;
+    }
+    /*===============================================*/
     .tab_button {
         width: 16.5em;
         left: 72%;
         top: 45em;
     }
     .asus_gift {
-       top: -9em;
+        top: -9em;
     }
-/*=============BREND=======================*/
+    /*=============BREND=======================*/
     .wrapper {
         width: 97%;
     }
     .wrapper_brend_button {
-       left: 75%;
+        left: 75%;
     }
-/*-------------------------*/
+    /*-------------------------*/
     .brend_logo {
         padding-top: 1.2em;
         height: 175px;
     }
-    .brend_atendt, .brend_toshiba, .brend_apple_logo, 
-    .brend_microsoft, .brend_cisco, .brend_panasonic, 
-    .brend_nokia, .brend_samsung_logo, .brend_ibm, 
-    .brend_dell, .brend_intel, .brend_amd, .brend_lenovo,
-    .brend_asus_logo,.brend_nec,.brend_kasper {
+    .brend_atendt,
+    .brend_toshiba,
+    .brend_apple_logo,
+    .brend_microsoft,
+    .brend_cisco,
+    .brend_panasonic,
+    .brend_nokia,
+    .brend_samsung_logo,
+    .brend_ibm,
+    .brend_dell,
+    .brend_intel,
+    .brend_amd,
+    .brend_lenovo,
+    .brend_asus_logo,
+    .brend_nec,
+    .brend_kasper {
         height: 65px;
         width: 12.5%;
     }
-/*--------------------------------------*/
+    /*--------------------------------------*/
     .brend_link_colum a {
         padding-left: 3px;
     }
-/*=================FOOTER==========================*/
+    /*=================FOOTER==========================*/
     .footer_wapper {
         width: 96%;
     }
     .footer_wapper_button {
         left: 72%;
     }
-/*--------------SMART-----------------------*/
+    /*--------------SMART-----------------------*/
     .footer_articles_smart {
         width: 20%;
         left: 2%;
@@ -1450,21 +1713,17 @@ acronym {
     .footer_text_smart {
         /*! width: 13.5em; */
     }
-/*---------------PRINTER------------------------*/
+    /*---------------PRINTER------------------------*/
     .footer_articles_print {
         width: 20%;
         left: 27%;
     }
-    c {
-        width: 14.5em;
-        left: -0.5em;
-    }
-/*---------------NOTEBOOK------------------------*/
+    /*---------------NOTEBOOK------------------------*/
     .footer_articles_notebook {
         width: 20%;
         left: 51%;
     }
-/*---------------HDD------------------------*/
+    /*---------------HDD------------------------*/
     .footer_articles_hdd {
         width: 20%;
         left: 76%;
@@ -1473,25 +1732,25 @@ acronym {
         width: 14.5em;
         left: -0.5em;
     }
-/*===========================================*/
+    /*===========================================*/
     .footer_section {
         width: 96%;
     }
-/*---------------------------------------*/ 
+    /*---------------------------------------*/
     .footer_warpper_communication {
         width: 80%;
         height: 16em;
     }
     .facebook {
-       width: 13em;
+        width: 13em;
     }
     .vKontakte {
-       text-align: left;
-       float: right;
+        text-align: left;
+        float: right;
     }
     .Twitter {
-       width: 7em;
-       padding-left: 16px;
+        width: 7em;
+        padding-left: 16px;
     }
     .footer_logo {
         width: 20%;
@@ -1504,6 +1763,7 @@ acronym {
         color: #4e4e4e;
     }
 }
+
 @media (max-width: 890px) {
     .header_wrapper {
         height: 150px;
@@ -1528,7 +1788,7 @@ acronym {
     .input {
         margin-top: 10px;
     }
-    .input_button { 
+    .input_button {
         top: 4.3em;
         left: 54.2%;
     }
@@ -1536,7 +1796,7 @@ acronym {
         width: 11em;
     }
     .user_img {
-	    width: 5em;
+        width: 5em;
     }
     .user_href_text {
         display: none;
@@ -1551,7 +1811,7 @@ acronym {
     .user_button_img a {
         font-size: 20px;
     }
-/*================MENU-BURGER==========================*/
+    /*================MENU-BURGER==========================*/
     ul.main_menu li {
         float: none;
     }
@@ -1560,68 +1820,68 @@ acronym {
     }
     .header_menu {
         position: absolute;
-         top: 12em;
+        top: 12em;
         left: 75%;
         width: 20%;
     }
     .hamburger {
-      display: block;
-      position: absolute;
-      width: 36px;
-      height: 33px;
-      z-index: 2;
-      background: #ffffff;
-      border-radius: 5px 5px;
-      border: 3px solid #a9a9a9;
-      left: 84%;
-      top: -3em;
+        display: block;
+        position: absolute;
+        width: 36px;
+        height: 33px;
+        z-index: 2;
+        background: #ffffff;
+        border-radius: 5px 5px;
+        border: 3px solid #a9a9a9;
+        left: 84%;
+        top: -3em;
     }
-
     .hamburger__inner {
-      display: block;
-      width: 20px;
-      height: 3px;
-      margin-top: 12px;
-      background: #a9a9a9;
-      -webkit-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
-      margin-left: 5px;
+        display: block;
+        width: 20px;
+        height: 3px;
+        margin-top: 12px;
+        background: #a9a9a9;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
+        margin-left: 5px;
     }
-    .hamburger__inner::before, .hamburger__inner::after {
-      display: block;
-      position: absolute;
-      content: "";
-      z-index: -1;
-      width: 20px;
-      height: 3px;
-      background: #a9a9a9;
-      -webkit-transition: all 0.4s ease-in-out;
-      transition: all 0.4s ease-in-out;
+    .hamburger__inner::before,
+    .hamburger__inner::after {
+        display: block;
+        position: absolute;
+        content: "";
+        z-index: -1;
+        width: 20px;
+        height: 3px;
+        background: #a9a9a9;
+        -webkit-transition: all 0.4s ease-in-out;
+        transition: all 0.4s ease-in-out;
     }
     .hamburger__inner::before {
-      top: 5px;
-      left: 5px;
+        top: 5px;
+        left: 5px;
     }
     .hamburger__inner::after {
-      top: 19px;
-      left: 5px;
+        top: 19px;
+        left: 5px;
     }
-
     .hamburger--open .hamburger__inner {
-      background: none;
+        background: none;
     }
-    .hamburger--open .hamburger__inner::before, .hamburger--open .hamburger__inner::after {
-      top: 12px;
+    .hamburger--open .hamburger__inner::before,
+    .hamburger--open .hamburger__inner::after {
+        top: 12px;
     }
     .hamburger--open .hamburger__inner::before {
-      -webkit-transform: rotate(-45deg);
-      -ms-transform: rotate(-45deg);
-      transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
     }
     .hamburger--open .hamburger__inner::after {
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
     }
     ul.menu li {
         float: none;
@@ -1635,8 +1895,8 @@ acronym {
         display: none;
     }
     ul.menu {
-       background: none;
-       height: 15em;
+        background: none;
+        height: 15em;
     }
     ul.menu li a {
         font-size: 16px;
@@ -1660,28 +1920,27 @@ acronym {
         padding: 0;
         margin: 0;
         opacity: 0;
-        visibility:hidden;
+        visibility: hidden;
         text-indent: 10px;
         line-height: 32px;
         border: 1px solid #ccc;
         background: #f0f4f5;
         width: 40em;
     }
-
     .dropdown-menu a {
         display: block;
     }
     .dropdown-toggle:focus ~ .dropdown-text {
-        box-shadow: 0 1px 3px rgba(0,0,0, .2) inset, 0 1px 0 rgba(255,255,255, 0.8);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .2) inset, 0 1px 0 rgba(255, 255, 255, 0.8);
         z-index: 2;
     }
     .dropdown-menu:hover,
     .dropdown-toggle:focus ~ .dropdown-menu {
         opacity: 1;
-        visibility:visible;
+        visibility: visible;
         top: 42px;
     }
-/*===================MENU=============================*/
+    /*===================MENU=============================*/
     ul.menu li {
         float: none;
         width: auto;
@@ -1694,8 +1953,8 @@ acronym {
         display: none;
     }
     ul.menu {
-       background: none;
-       height: 15em;
+        background: none;
+        height: 15em;
     }
     ul.menu li a {
         font-size: 16px;
@@ -1706,17 +1965,17 @@ acronym {
         height: 40px;
         background: #eef0f0;
     }
-    .dropdown-toggle, .dropdown-text {
+    .dropdown-toggle,
+    .dropdown-text {
         display: block;
     }
     .section_menu {
-        
-    margin: 0 auto;
-    background: #0c6095;
-    width: 96%;
-    position: relative;
-    top: -45px;
-    border-radius: 5px 5px;
+        margin: 0 auto;
+        background: #0c6095;
+        width: 96%;
+        position: relative;
+        top: -45px;
+        border-radius: 5px 5px;
     }
     .dropdown {
         position: relative;
@@ -1734,10 +1993,9 @@ acronym {
         background-color: #fff;
         border: 1px solid #ccc;
         border-radius: 3px;
-        box-shadow: 0 1px 0 rgba(255,255,255, .9) inset, 0 1px 3px rgba(0,0,0, .1);
+        box-shadow: 0 1px 0 rgba(255, 255, 255, .9) inset, 0 1px 3px rgba(0, 0, 0, .1);
         width: 100%;
     }
-
     .dropdown-text:after {
         position: absolute;
         right: 6px;
@@ -1749,13 +2007,11 @@ acronym {
         border-width: 5px 4px 0 4px;
         border-color: #555 transparent transparent transparent;
     }
-
     .dropdown-text,
     .dropdown-content a {
         color: #333;
         text-shadow: 0 1px #fff;
     }
-
     .dropdown-toggle {
         z-index: 1;
         cursor: pointer;
@@ -1769,7 +2025,6 @@ acronym {
         height: 34px;
         width: 100%;
     }
-
     .dropdown-toggle:focus {
         outline: 0;
     }
@@ -1783,7 +2038,7 @@ acronym {
         padding: 0;
         margin: 0;
         opacity: 0;
-        visibility:hidden;
+        visibility: hidden;
         text-indent: 10px;
         line-height: 32px;
         border: 1px solid #ccc;
@@ -1794,7 +2049,7 @@ acronym {
         display: block;
     }
     .dropdown-toggle:focus ~ .dropdown-text {
-        box-shadow: 0 1px 3px rgba(0,0,0, .2) inset, 0 1px 0 rgba(255,255,255, 0.8);
+        box-shadow: 0 1px 3px rgba(0, 0, 0, .2) inset, 0 1px 0 rgba(255, 255, 255, 0.8);
         z-index: 2;
     }
     .dropdown-toggle:focus ~ .dropdown-text:after {
@@ -1804,11 +2059,10 @@ acronym {
     .dropdown-content:hover,
     .dropdown-toggle:focus ~ .dropdown-content {
         opacity: 1;
-        visibility:visible;
+        visibility: visible;
         top: 42px;
     }
-
-/*-------------------------------*/
+    /*-------------------------------*/
     .wrapper_slider {
         height: 270px;
         top: -2em;
@@ -1824,16 +2078,18 @@ acronym {
     .section_wrapper_text {
         width: 88%;
     }
-    .kasperski, .FR, .windows {
+    .kasperski,
+    .FR,
+    .windows {
         padding-left: 9%;
     }
-/*===================================*/
+    /*===================================*/
     .section_tabs {
         float: left;
         height: 404px;
     }
     .tab_button {
-        top: 62em; 
+        top: 62em;
         left: 67%;
     }
     .tabs_dropdown {
@@ -1851,13 +2107,13 @@ acronym {
         left: 29%;
         top: 48.4em;
     }
-    .tabs li.active, .tabs li.active:hover {
-        
-    width: 35%;
-    text-align: left;
-    padding-left: 20px;
+    .tabs li.active,
+    .tabs li.active:hover {
+        width: 35%;
+        text-align: left;
+        padding-left: 20px;
     }
-/*====================================*/
+    /*====================================*/
     .wrapper {
         height: 62em;
         width: 100%;
@@ -1876,11 +2132,22 @@ acronym {
         margin: 0 auto;
         width: 96%;
     }
-    .brend_atendt, .brend_toshiba, .brend_apple_logo, 
-    .brend_microsoft, .brend_cisco, .brend_panasonic, 
-    .brend_nokia, .brend_samsung_logo, .brend_ibm, 
-    .brend_dell, .brend_intel, .brend_amd, .brend_lenovo,
-    .brend_asus_logo,.brend_nec,.brend_kasper {
+    .brend_atendt,
+    .brend_toshiba,
+    .brend_apple_logo,
+    .brend_microsoft,
+    .brend_cisco,
+    .brend_panasonic,
+    .brend_nokia,
+    .brend_samsung_logo,
+    .brend_ibm,
+    .brend_dell,
+    .brend_intel,
+    .brend_amd,
+    .brend_lenovo,
+    .brend_asus_logo,
+    .brend_nec,
+    .brend_kasper {
         height: 65px;
         width: 25%;
     }
@@ -1892,7 +2159,7 @@ acronym {
         columns: 4 20px;
         margin: 0 auto;
     }
-/*  =========================================    */
+    /*  =========================================    */
     .footer_wapper_button {
         top: 146em;
         left: 63%;
@@ -1906,7 +2173,6 @@ acronym {
         width: 60%;
     }
     .footer_text_smart {
-        /*! width: 26em; */
         left: 11em;
         top: 3em;
     }
@@ -1916,7 +2182,6 @@ acronym {
         width: 60%;
     }
     .footer_text_print {
-        /*! width: 26em; */
         left: 11em;
         top: 3em;
     }
@@ -1939,7 +2204,7 @@ acronym {
         left: 11em;
         top: 3em;
     }
-/*======================================*/
+    /*======================================*/
     .footer_menu {
         display: block;
         line-height: 22px;
@@ -1954,7 +2219,7 @@ acronym {
         left: 1%;
         float: left;
     }
-/* ========================================= */
+    /* ========================================= */
     .footer_warpper_communication {
         height: 20em;
     }
@@ -2012,12 +2277,13 @@ acronym {
         float: right;
     }
 }
+
 @media (max-width: 720px) {
     .header_wrapper_section {
         height: 6.5em;
     }
     .header_logo {
-        width: 40%; 
+        width: 40%;
     }
     .number {
         width: 55%;
@@ -2042,66 +2308,66 @@ acronym {
         left: 0;
     }
     .user_button:after {
-    top: 1.2em;
-    left: 88%;
+        top: 1.2em;
+        left: 88%;
     }
-/* ============================== */
+    /* ============================== */
     .section_menu {
         top: -10px;
     }
-    
-/* ============================== */
+    /* ============================== */
     .tab_button {
-        
-    top: 43em;
-    left: 58%;
+        top: 43em;
+        left: 51%;
     }
     .dropdown {
-       left: 0.5em;
-       width: 50%;
-       text-align: center;
+        left: 0.5em;
+        width: 50%;
+        text-align: center;
     }
     .hamburger {
-       left: 75%;
-       top: -6px;
+        left: 75%;
+        top: -6px;
     }
     .wrapper_slider {
-       display: none;
+        display: none;
     }
-    .kasperski, .FR, .windows {
+    .kasperski,
+    .FR,
+    .windows {
         padding-left: 15%
     }
-/* ================================ */
+    /* ================================ */
     .wrapper_brend {
         width: 50%;
     }
     .wrapper_brend_button {
-       top: 70em;
-       left: 63%;
+        top: 70em;
+        left: 55%;
     }
     .brend_link {
-    width: 100%;
-    font-size: 9px;
+        width: 100%;
+        font-size: 9px;
     }
-/* ================================ */
+    /* ================================ */
     .tabs_hamburger {
-       left: 40%;
-       top: 33em;
+        left: 40%;
+        top: 33em;
     }
-    .tabs li.active, .tabs li.active:hover {
+    .tabs li.active,
+    .tabs li.active:hover {
         width: 50%;
     }
     .wrapper {
         height: 40em;
     }
-/* ==================================== */
+    /* ==================================== */
     .footer_wapper {
-        
-    height: 600px;
+        height: 600px;
     }
     .footer_wapper_button {
         top: 121em;
-        left: 55%;
+        left: 47%;
     }
     .footer_articles_smart {
         top: 104em;
@@ -2119,7 +2385,7 @@ acronym {
         width: 60%;
     }
     .footer_articles_hdd {
-    display: none;
+        display: none;
     }
     .footer_menu {
         width: 90%;
@@ -2134,10 +2400,10 @@ acronym {
         padding: 0;
     }
     .footer_logo_text {
-        
-    padding-top: 20px;
+        padding-top: 20px;
     }
 }
+
 @media (max-width: 460px) {
     .header_logo {
         width: 60%;
@@ -2147,15 +2413,13 @@ acronym {
         display: none;
     }
     .user {
-        
-    width: 40%;
-    text-align: center;
+        width: 40%;
+        text-align: center;
     }
     .user_img {
-        
-    width: 8em;
-    padding-top: 0.7em;
-    background-position: left 20% center;
+        width: 8em;
+        padding-top: 0.7em;
+        background-position: left 20% center;
     }
     .user_button {
         width: 80%;
@@ -2173,38 +2437,38 @@ acronym {
         font-size: 14px;
         padding-left: 7px;
     }
-/* ================================= */
+    /* ================================= */
     .dropdown {
-        
-    width: 65%;
-    text-align: left;
+        width: 65%;
+        text-align: left;
     }
     .hamburger {
         left: 40%;
     }
-/* ================================= */
+    /* ================================= */
     .section_wrapper_text {
         width: 100%;
     }
-    .kasperski, .FR, .windows {
+    .kasperski,
+    .FR,
+    .windows {
         padding-left: 20%;
     }
-/* ================================ */
-    
-    .tabs li.active, .tabs li.active:hover {
+    /* ================================ */
+    .tabs li.active,
+    .tabs li.active:hover {
         width: 65%;
         font-size: 15px;
         padding-left: 5px;
     }
     .tabs_hamburger {
-        
-    left: 48%;
+        left: 48%;
     }
     .tab_button {
         left: 5%;
         top: 65em;
     }
-/* =============================== */
+    /* =============================== */
     .wrapper {
         height: 25em;
     }
@@ -2215,17 +2479,30 @@ acronym {
         top: 96em;
         left: 5%;
     }
-    .brend_atendt, .brend_toshiba, .brend_apple_logo, .brend_microsoft, .brend_cisco, .brend_panasonic, .brend_nokia, .brend_samsung_logo{
+    .brend_atendt,
+    .brend_toshiba,
+    .brend_apple_logo,
+    .brend_microsoft,
+    .brend_cisco,
+    .brend_panasonic,
+    .brend_nokia,
+    .brend_samsung_logo {
         width: 48%;
     }
-    .brend_ibm, .brend_dell, .brend_intel, .brend_amd, .brend_lenovo, .brend_asus_logo, .brend_nec, .brend_kasper {
+    .brend_ibm,
+    .brend_dell,
+    .brend_intel,
+    .brend_amd,
+    .brend_lenovo,
+    .brend_asus_logo,
+    .brend_nec,
+    .brend_kasper {
         display: none;
     }
-        
     .brend_link {
         display: none;
     }
-/* ============================== */
+    /* ============================== */
     .footer_wapper {
         height: 20em;
     }
@@ -2234,66 +2511,68 @@ acronym {
         left: 5%;
     }
     .footer_articles_smart {
-    background: none;
+        background: none;
     }
     .footer_text_smart {
         left: 0em;
         top: -14em;
         width: 20em;
     }
-    .footer_articles_print, .footer_articles_notebook {
+    .footer_articles_print,
+    .footer_articles_notebook {
         display: none;
     }
     .footer_menu {
         display: none;
     }
-/* ================================================= */
+    /* ================================================= */
     .footer_warpper_communication {
-        
-    height: 23em;
+        height: 23em;
     }
     .communication_colum1 {
-       width: 100%;
-       height: 120px;
+        width: 100%;
+        height: 120px;
     }
     .footer_number {
-    width: 100%;
-    margin: 0;
-    height: 50px;
-    padding-top: 5px;
+        width: 100%;
+        margin: 0;
+        height: 50px;
+        padding-top: 5px;
     }
     .communication_colum1_text {
         display: none;
     }
-/* ------------------------------- */
+    /* ------------------------------- */
     .communication_colum2 {
         height: 150px;
     }
     .footer_mode {
         width: 100%;
     }
-/* -------------------------------- */
-    .fa-facebook-official, .fa-vk, .fa-twitter-square {
-    padding: 0;
-    width: 33%;
-    text-align: center;
+    /* -------------------------------- */
+    .fa-facebook-official,
+    .fa-vk,
+    .fa-twitter-square {
+        padding: 0;
+        width: 33%;
+        text-align: center;
     }
-    .facebook, .vKontakte, .Twitter {
+    .facebook,
+    .vKontakte,
+    .Twitter {
         padding: 0;
         font-size: 12px;
         width: 8em;
         text-align: center;
     }
     .footer_logo {
-        
-    background-position: center center;
-    height: 5em;
+        background-position: center center;
+        height: 5em;
     }
     .footer_logo_text {
-        
-    padding: 0;
-    position: relative;
-    top: 77px;
-    left: -8%;
+        padding: 0;
+        position: relative;
+        top: 77px;
+        left: -8%;
     }
 }
