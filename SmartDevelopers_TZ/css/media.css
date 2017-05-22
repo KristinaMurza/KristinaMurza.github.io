@@ -233,6 +233,7 @@
     }
     .info_sale p {
         margin-top: 6px;
+        flex-direction: inherit;
     }
     .info_sale {
         top: 110px;
@@ -979,7 +980,7 @@
 @media only screen and (max-width: 680px) {
     .pushy,
     site-overlay,
-    #container {
+    .menu-btn {
         display: block;
     }
     .menu {
@@ -1040,6 +1041,10 @@
         top: 11px;
         color: #f68235;
         font-size: 30px;
+        cursor: pointer;
+    }
+    .logo_shopping i:hover{
+        color: #e5e5e5;
     }
     .contacts_head,
     .search-mobile {
