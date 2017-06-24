@@ -96,7 +96,7 @@ a:hover {
 }
 
 .header_logo_text p {
-    width: 60%;
+    width: 48%;
     color: #8e2526;
     font-family: "MyriadProItalic", sans-serif;
     font-size: 23px;
@@ -140,7 +140,9 @@ a:hover {
 
 
 /*=====MAIN-MENU======*/
-
+.pushy_header_menu{
+  display: none;  
+}
 .main_menu {
     background-image: url(../img/header_menu.png);
     background-repeat: no-repeat;
@@ -281,7 +283,7 @@ a:hover {
     cursor: pointer;
     position: absolute;
     top: 22em;
-    left: 20%;
+    left: 17%;
     width: 378px;
     height: 50px;
     background: #63a7aa;
@@ -302,7 +304,7 @@ a:hover {
     cursor: pointer;
     position: absolute;
     top: 26em;
-    left: 24%;
+    left: 20%;
     width: 275px;
     height: 50px;
     background: #c67773;
@@ -547,7 +549,7 @@ p.info_bloc_img_text span {
 /*============================*/
 
 .method_teaching {
-    height: 61em;
+    /*! height: 61em; */
     border-bottom: 1px solid #e4e4e4;
 }
 
@@ -558,7 +560,7 @@ p.info_bloc_img_text span {
 }
 
 .teaching_border {
-    height: 150px;
+    height: 110px;
 }
 
 .teaching_border_bottom_bottom {
@@ -949,7 +951,7 @@ h1.occupation_title {
 }
 
 .clients_img {
-    width: 94%;
+    width: 90%;
     margin: 0 auto;
 }
 
@@ -966,7 +968,7 @@ h1.occupation_title {
     background-image: url(../img/farm_logo.png);
     background-position: bottom center;
     background-repeat: no-repeat;
-    width: 190px;
+    width: 182px;
     height: 114px;
     float: left;
 }
@@ -1229,7 +1231,6 @@ footer {
 .footer_blok_icon {
     
     width: 13%;
-    float: left;
     height: 60px;
     display: flex;
     align-items: flex-end;

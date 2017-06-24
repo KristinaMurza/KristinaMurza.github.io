@@ -99,13 +99,13 @@ background-size: cover;
 }
 .menu-btn {
   
-  color: #f68235;
   background: none;
-  border: none;
-  font-size: 31px;
-  position: relative;
-  left: -24%;
-  top: -1.5em;
+  font-size: 25px;
+  position: absolute;
+  left: 7px;
+  top: 14px;
+  border: 2px solid #f68235;
+  color: #f68235;
 }
 
 /* Site Overlay */
