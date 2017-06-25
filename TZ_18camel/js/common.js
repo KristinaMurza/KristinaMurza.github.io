@@ -6,6 +6,13 @@ $(document).ready(function() {
     	return false;
     });
     
+//    burger menu
+    // slide navigation slide down or up
+
+  $("#nav_list").click(function(){
+    $(".nav-list").slideToggle();
+  });
+
     
 // Липкая шапка или фиксированная
     
@@ -16,14 +23,6 @@ $(document).ready(function() {
  
     // Create a new instance of Headhesive.js and pass in some options
     var header = new Headhesive('.header_menu', options);// 
-    
-    //Options
-    var options = {
-    	offset: 400 //при каких px появляется шапка
-    }
- 
-    // Create a new instance of Headhesive.js and pass in some options
-    var header = new Headhesive('.pushy_header_menu', options);
         
     
     //Кнопка "Наверх".

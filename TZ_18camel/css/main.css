@@ -140,9 +140,11 @@ a:hover {
 
 
 /*=====MAIN-MENU======*/
-.pushy_header_menu{
-  display: none;  
+
+.pushy_header_menu {
+    display: none;
 }
+
 .main_menu {
     background-image: url(../img/header_menu.png);
     background-repeat: no-repeat;
@@ -198,8 +200,8 @@ a:hover {
     display: block !important;
 }
 
-.pushy,
-.menu-btn {
+#nav_list,
+.nav-list {
     display: none;
 }
 
@@ -211,9 +213,6 @@ a:hover {
     /*! width: 100%; */
     /*! height: 613px; */
 }
-
-
-
 
 .header_form_title {
     position: absolute;
@@ -294,8 +293,9 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
+
 .programm a:hover {
-     color: #ff8100;
+    color: #ff8100;
     text-decoration: none;
     transition: all 0.3s ease;
 }
@@ -315,11 +315,13 @@ a:hover {
     justify-content: center;
     align-items: center;
 }
-.registration a:hover{
-         color: #ff8100;
+
+.registration a:hover {
+    color: #ff8100;
     text-decoration: none;
     transition: all 0.3s ease;
 }
+
 
 /*====================================*/
 
@@ -493,7 +495,8 @@ a:hover {
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: end;
+    /*! align-items: end; */
+    -webkit-align-items: end;
 }
 
 .info_bloc_img_text {
@@ -716,11 +719,13 @@ p.teaching_img_text span {
     justify-content: center;
     align-items: center;
 }
+
 .method_teaching_button a:hover {
-     color: #ff8100;
+    color: #ff8100;
     text-decoration: none;
     transition: all 0.3s ease;
 }
+
 
 /*==============================*/
 
@@ -1053,9 +1058,7 @@ h1.occupation_title {
     height: 84px;
 }
 
-.course_coach_img_text {
-    
-}
+.course_coach_img_text {}
 
 .course_coach_img {
     width: 500px;
@@ -1063,9 +1066,7 @@ h1.occupation_title {
     text-align: center;
 }
 
-.course_coach_img img {
-    
-}
+.course_coach_img img {}
 
 .course_coach_text {
     width: 50%;
@@ -1082,7 +1083,6 @@ h1.occupation_title {
 }
 
 .course_coach_text p span {
-    
     font-family: "OpenSansSemiBold", sans-serif;
     font-size: 18px;
 }
@@ -1102,18 +1102,18 @@ h1.occupation_title {
 }
 
 .course_coach_text_blok p span {
-    
     font-family: "OpenSansBold", sans-serif;
     font-size: 18px;
 }
+
+
 /*==================*/
 
 .check_in {
-    
     height: 35em;
 }
+
 .check_in h1 {
-    
     height: 125px;
     display: flex;
     justify-content: center;
@@ -1124,8 +1124,8 @@ h1.occupation_title {
     font-family: "LatoRegular", sans-serif;
     color: #63a7aa;
 }
+
 .check_in p {
-    
     text-align: center;
     width: 70%;
     margin: 0 auto;
@@ -1133,20 +1133,20 @@ h1.occupation_title {
     color: #484849;
     font-size: 18px;
 }
+
 .check_in p span {
-    
     color: #3b5998;
 }
+
 form {
-    
     width: 70%;
     margin: 0 auto;
     text-align: center;
     margin-top: 40px;
     height: 100px;
 }
+
 input {
-    
     width: 30em;
     height: 37px;
     border-radius: 5px 5px;
@@ -1156,11 +1156,12 @@ input {
     margin-right: 9px;
     color: #818283;
 }
+
 input [type] {
     color: #000;
 }
+
 .check_in button {
-    
     position: relative;
     top: 58px;
     left: 40%;
@@ -1174,28 +1175,28 @@ input [type] {
     cursor: pointer;
 }
 
+
 /*=============================*/
 
 footer {
-    
     background: #3f5064;
 }
+
 .footer_logo {
-    
     float: left;
     width: 33%;
     height: 100px;
 }
+
 .footer_logo_img {
     background-image: url(../img/footer_logo.png);
     background-position: center center;
     background-repeat: no-repeat;
-    
     height: 100px;
     /*! width: 100px; */
 }
+
 .footer_blok {
-    
     width: 18%;
     float: left;
     height: 75px;
@@ -1203,47 +1204,50 @@ footer {
     flex-direction: column;
     justify-content: flex-end;
 }
+
 .footer_blok p {
     color: #fff;
     margin-bottom: 3px;
     font-family: "LatoRegular", sans-serif;
     font-size: 14px;
 }
+
 .footer_blok p i {
-    
     float: left;
     color: #fff;
     font-size: 14px;
     margin-top: 5px;
     margin-right: 10px;
 }
+
 .footer_blok p a {
     text-decoration: underline;
     transition: all 0.5s ease;
     font-family: "LatoRegular", sans-serif;
     font-size: 14px;
 }
+
 .footer_blok a:hover {
     color: #ff8100;
     text-decoration: none;
     transition: all 0.3s ease;
 }
+
 .footer_blok_icon {
-    
     width: 13%;
     height: 60px;
     display: flex;
     align-items: flex-end;
     justify-content: center;
 }
+
 .footer_blok_icon p {
-    
     float: left;
     width: 53px;
     /*! text-align: center; */
 }
+
 .footer_blok_icon p i {
-    
     color: #fff;
     font-size: 35px;
 }
