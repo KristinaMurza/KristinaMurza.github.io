@@ -492,11 +492,14 @@ a:hover {
     font-family: "LatoRegular", sans-serif;
     color: #8e3330;
     text-align: center;
-    display: flex;
     justify-content: center;
     align-items: end;
     -webkit-align-items: end;
     -webkit-justify-content: center;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: flex;
 }
 
 .info_bloc_img_text {
