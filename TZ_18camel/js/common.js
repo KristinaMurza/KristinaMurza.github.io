@@ -5,13 +5,6 @@ $(document).ready(function() {
     	$(".main_menu ul").slideToggle();
     	return false;
     });
-    
-//    burger menu
-    // slide navigation slide down or up
-
-  $("#nav_list").click(function(){
-    $(".nav-list").slideToggle();
-  });
 
     
 // Липкая шапка или фиксированная

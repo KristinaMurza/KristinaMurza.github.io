@@ -5,7 +5,7 @@
 /* Menu Appearance */
 .pushy {
   position: fixed;
-  width: 200px;
+  width: auto;
   height: auto;
   top: 0;
   z-index: 9999;
@@ -16,21 +16,23 @@
 }
 .pushy a {
   display: block;
-  color: #b3b3b1;
-  /*! padding: 15px 0 0 30px; */
+  color: #fff;
+  padding: 15px 30px;
   text-decoration: none;
 }
 .pushy a:hover {
-  color: #FFF;
+    color: #ff8100;
+    text-decoration: none;
 }
 .pushy ul:first-child {
   margin-top: 10px;
 }
 .pushy.pushy-left {
-  left: -3px;
-  top: 75px;
-
-
+  left: -13px;
+  top: 66px;
+  position: fixed;
+      background-image: url(../../img/header_menu.png);
+/*   background-repeat: no-repeat; */
 }
 .pushy.pushy-right {
   right: 0;
@@ -45,13 +47,14 @@
   -webkit-transform: translate3d(-200px, 0, 0);
   -ms-transform: translate3d(-200px, 0, 0);
   transform: translate3d(-200px, 0, 0);
+
 }
 
 .pushy-open-left #container,
 .pushy-open-left .push {
   -webkit-transform: translate3d(200px, 0, 0);
   -ms-transform: translate3d(200px, 0, 0);
-  transform: translate3d(0, 0, 0);
+  transform: translate3d(200px, 0, 0);
 }
 
 .pushy-right {
@@ -72,10 +75,7 @@
   -webkit-transform: translate3d(0, 0, 0);
   -ms-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0);
-    background-image: url(../../img/header_menu.png);
-background-repeat: no-repeat;
-background-size: cover;
-  0em
+  
 }
 .pushy-open-left .pushy-content,
 .pushy-open-right .pushy-content {
@@ -87,11 +87,12 @@ background-size: cover;
 .pushy,
 .push {
   transition: transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);
-  /*! top: 3px; */
+  top: 3px;
   position: absolute;
-  /*! left: 19px; */
+  left: 19px;
   border: none;
   /*! background: none; */
+  
 }
 
 .pushy-content {
@@ -99,13 +100,14 @@ background-size: cover;
 }
 .menu-btn {
   
-  background: none;
-  font-size: 25px;
-  position: absolute;
-  left: 7px;
-  top: 14px;
-  border: 2px solid #f68235;
   color: #f68235;
+  background: none;
+  border: none;
+  font-size: 31px;
+  position: fixed;
+  left: 20px;
+  top: 14px;
+  border: 1px solid #f68235;
 }
 
 /* Site Overlay */

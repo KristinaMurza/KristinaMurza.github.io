@@ -856,61 +856,8 @@
 /* Extra Small Devices, Phones */
 
 @media only screen and (max-width: 600px) {
-    /*side menu down for small devices*/
-    #nav_list,
-    .nav-list {
+    .menu-btn, .pushy {
         display: block;
-    }
-    .nav-list {
-        position: fixed;
-        top: 50px;
-        left: 0px;
-        width: 30%;
-        z-index: 1026;
-        display: none;
-        background-image: url(../img/header_menu.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .nav-list a {
-        display: block;
-        color: #fff;
-        font-size: 80%;
-        font-weight: bold;
-        text-decoration: none;
-        /*! border-top: 1px solid #57544e; */
-        /*! border-bottom: 1px solid #312e2a; */
-        padding: 14px;
-    }
-    .nav-list a:hover {
-        color: #ff8100;
-        text-decoration: none;
-    }
-    .nav-list a:active {
-        background: #454f5c;
-        color: #fff;
-    }
-    /*container for burger*/
-    #nav_list {
-        cursor: pointer;
-        height: 40px;
-        width: 50px;
-        position: fixed;
-        top: 5px;
-        left: 10px;
-        padding: 0;
-    }
-    #nav_list:hover {
-        -moz-transform: scale(1.05);
-        -webkit-transform: scale(1.05);
-    }
-    /*style the lines in burger*/
-    .burger-line {
-        margin: 4px;
-        width: 6%;
-        height: 3px;
-        background: #526666;
-        border-radius: 30%;
     }
     .main_menu,
     .menu,
@@ -1111,9 +1058,6 @@
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 360px) {
-    .nav-list {
-        width: 50%;
-    }
     .logo {
         width: 100%;
         background-position: center center;
@@ -1121,9 +1065,6 @@
     .menu-btn {
         left: 12%;
         top: 26px;
-    }
-    .inform_border {
-        /*! height: 130px; */
     }
     .programm {
         top: 12.5em;
@@ -1144,10 +1085,6 @@
         float: none;
         margin: 0;
         margin-bottom: 15px;
-    }
-    .inform_kurse_text {
-        /*! display: flex; */
-        /*! flex-direction: column; */
     }
     .inform_kurse_text_bloc {
         height: auto;
