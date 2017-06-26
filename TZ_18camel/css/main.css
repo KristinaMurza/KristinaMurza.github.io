@@ -476,7 +476,6 @@ a:hover {
 
 .info_bloc {
     background-image: url(../img/cover_img.png);
-    /*! background-position: center center; */
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 21px;
@@ -495,16 +494,13 @@ a:hover {
     text-align: center;
     display: flex;
     justify-content: center;
-    /*! align-items: end; */
+    align-items: end;
     -webkit-align-items: end;
+    -webkit-justify-content: center;
 }
 
 .info_bloc_img_text {
     width: 90%;
-    /*! display: flex; */
-    /*! flex-flow: wrap; */
-    /*! justify-content: space-around; */
-    /*! align-items: center; */
     margin: 0 auto;
 }
 

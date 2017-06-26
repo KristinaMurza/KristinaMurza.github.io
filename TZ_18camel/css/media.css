@@ -857,49 +857,22 @@
 
 @media only screen and (max-width: 600px) {
     /*side menu down for small devices*/
-    #nav_list,.nav-list {
-    display: block;
-}
-.nav-list {
+    #nav_list,
+    .nav-list {
+        display: block;
+    }
+    .nav-list {
         position: fixed;
-		   top:50px;
-		   left:0px;
-        width: 30%;      
+        top: 50px;
+        left: 0px;
+        width: 30%;
         z-index: 1026;
-		display:none;
-		
+        display: none;
         background-image: url(../img/header_menu.png);
         background-repeat: no-repeat;
         background-size: cover;
-}
-
-
- 
-.nav-list h3 {
-        
-        font-size: 0.8em;
-        font-weight: bold;
-        padding: 5px 20px;
-        margin: 0;
-        background: #282522;    
-        height: 16px;
-		text-align:center;
-		color:rgba(169,3,41, 1.0);
-}
-
-.nav-list h4 {
-        font-size: 0.7em;
-        font-weight: bold;
-        padding: 5px 20px;
-        margin: 0;
-        background: #282522;    
-        height: 16px;
-		text-align:center;
-		color:rgba(169,3,41, 1.0);
-
-}
- 
-.nav-list a {
+    }
+    .nav-list a {
         display: block;
         color: #fff;
         font-size: 80%;
@@ -908,47 +881,40 @@
         /*! border-top: 1px solid #57544e; */
         /*! border-bottom: 1px solid #312e2a; */
         padding: 14px;
-}
- 
-.nav-list a:hover {
-           color: #ff8100;
-    text-decoration: none;     
-}
- 
-.nav-list a:active {
+    }
+    .nav-list a:hover {
+        color: #ff8100;
+        text-decoration: none;
+    }
+    .nav-list a:active {
         background: #454f5c;
-        color: #fff;    
-}
-
- 
- /*container for burger*/
-#nav_list {
-       
+        color: #fff;
+    }
+    /*container for burger*/
+    #nav_list {
         cursor: pointer;
-height: 40px; 
-    width:50px; 
-    position:fixed; top:5px;
+        height: 40px;
+        width: 50px;
+        position: fixed;
+        top: 5px;
         left: 10px;
-    
-}
-
-
-
-
-#nav_list:hover{
-     -moz-transform:scale(1.05); -webkit-transform:scale(1.05);
-	 	 
-}
-/*style the lines in burger*/
-.burger-line {
-    margin:4px;
-	width:50%;
-	height:4px;
-	background:#526666;
-	border-radius:30%;
-	
-}
-    .main_menu,.menu {
+        padding: 0;
+    }
+    #nav_list:hover {
+        -moz-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+    }
+    /*style the lines in burger*/
+    .burger-line {
+        margin: 4px;
+        width: 6%;
+        height: 3px;
+        background: #526666;
+        border-radius: 30%;
+    }
+    .main_menu,
+    .menu,
+    header_menu {
         display: none;
     }
     .inform_border {
@@ -1037,9 +1003,8 @@ height: 40px;
 
 @media only screen and (max-width: 480px) {
     .nav-list {
-    
-    width: 35%;
-}
+        width: 35%;
+    }
     .method_teaching_button {
         top: -30px;
         left: 19%;
@@ -1140,17 +1105,15 @@ height: 40px;
     .inform_kurse_text_bloc {
         height: auto;
     }
-    
 }
 
 
 /* Custom, iPhone Retina */
 
 @media only screen and (max-width: 360px) {
-.nav-list {
-    
-    width: 50%;
-}
+    .nav-list {
+        width: 50%;
+    }
     .logo {
         width: 100%;
         background-position: center center;
