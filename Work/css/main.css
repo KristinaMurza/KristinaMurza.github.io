@@ -150,8 +150,8 @@ menu-btn {
     color: #2b3056;
 }
 
-#menuToggle input,
-#menuToggle span {
+#menuToggle > input,
+#menuToggle > span {
     display: none;
 }
 
