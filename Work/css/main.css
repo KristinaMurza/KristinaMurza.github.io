@@ -79,6 +79,7 @@ menu-btn {
     width: 23%;
     float: left;
     margin-top: 28px;
+    margin-right: 24px;
 }
 
 .header_logo_img {
@@ -86,6 +87,7 @@ menu-btn {
     background-position: left;
     background-repeat: no-repeat;
     height: 42px;
+    margin-left: 22px;
 }
 
 .header_logo_text {
@@ -93,18 +95,19 @@ menu-btn {
     color: #747688;
     font-family: "PTSansRegular", sans-serif;
     font-size: 14px;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    margin-top: -1px;
+    margin-bottom: 1px;
+    padding-left: 21px;
 }
 
 .header_search {
-    width: 45%;
+    width: 48%;
     float: left;
     margin-top: 28px;
 }
 
 .input {
-    width: 37em;
+    width: 35.5em;
     height: 43px;
     border-radius: 5px 5px;
     outline: none;
@@ -127,8 +130,7 @@ menu-btn {
 .header_nember {
     float: left;
     margin-right: 10px;
-    font-size: 14px;
-    margin-top: 26px;
+    margin-top: 33px;
     color: #181616;
     font-family: "PTSansRegular", sans-serif;
     font-size: 23px;
@@ -136,7 +138,7 @@ menu-btn {
 
 .header_work {
     float: left;
-    margin-top: 26px;
+    margin-top: 30px;
     color: #181616;
     font-family: "PTSansRegular", sans-serif;
     font-size: 14px;
@@ -161,13 +163,14 @@ menu-btn {
     margin-top: 10px;
     border-top: 1px solid #dddfdf;
     border-bottom: 1px solid #dddfdf;
-    margin-bottom: 20px;
+    margin-bottom: 33px;
+    height: 56px;
 }
 
 .topmenu p {
     position: absolute;
-    left: 18%;
-    top: 118px;
+    left: 18.5%;
+    top: 116px;
     color: #cb944c;
 }
 
@@ -175,7 +178,7 @@ menu-btn {
     margin: 0;
     padding: 0;
     list-style: none;
-    padding-top: 8px;
+    padding-top: 15px;
     width: 75%;
 }
 
@@ -204,7 +207,7 @@ menu-btn {
 .topmenu > li i {
     position: absolute;
     top: 2px;
-    left: 175px;
+    left: 188px;
     color: #cc9650;
     font-size: 20px;
     cursor: pointer;
@@ -223,7 +226,7 @@ menu-btn {
 }
 
 .topmenu > li > a.active {
-    margin-left: 35px;
+    margin-left: 47px;
 }
 
 .submenu li:hover {
@@ -234,19 +237,20 @@ menu-btn {
 .submenu {
     position: absolute;
     z-index: 5;
-    min-width: 220px;
+    min-width: 240px;
     background: white;
     visibility: hidden;
     opacity: 0;
     transform-origin: 0% 0%;
     transform: rotateX(-90deg);
     transition: .3s linear;
-    top: 42px;
+    top: 49px;
+    left: 9px;
 }
 
 .submenu li {
     position: relative;
-    line-height: 28px;
+    line-height: 31px;
     top: -5px;
     color: #ce9b58;
     /*! margin-left: 27px; */
@@ -278,8 +282,9 @@ menu-btn {
 .submenu .submenu {
     position: absolute;
     left: 101%;
-    top: -4px;
+    top: -9px;
     transition: .3s linear;
+    height: 154px;
 }
 
 .submenu .submenu h3 {
@@ -297,15 +302,18 @@ menu-btn {
 
 .main_menu_text {
     position: absolute;
-    right: 23em;
-    top: 7.4em;
+    right: 20em;
+    top: 7.3em;
 }
 
 .main_menu_text p {
     float: left;
     font-size: 14px;
-    margin-right: 15px;
+    margin-right: 24px;
     color: #252a54;
+    font-family: "PTSansBold", sans-seri;
+    text-transform: uppercase;
+    word-spacing: 2px;
 }
 
 .main_menu_text p i {
@@ -334,10 +342,10 @@ menu-btn {
 
 .owl-carousel p {
     position: relative;
-    width: 35%;
-    top: -5.5em;
-    left: 85px;
-    height: 136px;
+    width: 37%;
+    top: -5.3em;
+    left: 73px;
+    height: 131px;
     padding-left: 20px;
     border: 1px solid #d2a36c;
     background: #d2a36c;
@@ -347,4 +355,5 @@ menu-btn {
     color: #fff;
     filter: Alpha(Opacity=50);
     opacity: 0.9;
+    line-height: 53px;
 }
