@@ -370,13 +370,13 @@ a:hover {
         margin-top: 0;
     }
     .section_title_info__text {
-        
-    font-size: 18px;
-    padding-bottom: 0;
-    line-height: 40px;
+        font-size: 16px;
+        padding-bottom: 0;
+        line-height: 38px;
+
     }
     .footer {
-        font-size: 11px;
+        font-size: 10px;
         padding: 0;
     }
     .header, .header_link,
