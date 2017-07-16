@@ -366,13 +366,13 @@ a:hover {
         width: 220px;
         font-size: 20px;
         height: 40px;
-        margin-bottom: 15px;
-        margin-top: 0;
+        margin-bottom: 13px;
+        margin-top: 2px;
     }
     .section_title_info__text {
         font-size: 16px;
         padding-bottom: 0;
-        line-height: 38px;
+        line-height: 30px;
 
     }
     .footer {
