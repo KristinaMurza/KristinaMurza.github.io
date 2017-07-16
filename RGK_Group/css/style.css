@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 * {
     margin: 0;
     padding: 0;
@@ -6,7 +8,7 @@
 
 body {
     background: #fff;
-    font-family: "OpenSansLight", sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 14px;
     height: 100%;
     position: absolute;
@@ -91,6 +93,7 @@ a:hover {
     box-shadow: 0 0 15px rgba(161, 161, 161, 1);
     overflow: hidden;
     margin: 0 auto;
+    border: 1px solid #c3c3c3;
 }
 
 .section_title {
@@ -169,6 +172,7 @@ a:hover {
     text-align: center;
     position: relative;
     padding-bottom: 15px;
+    font-size: 16px;
 }
 
 @-webkit-keyframes my_opacity {
@@ -288,35 +292,55 @@ a:hover {
         max-width: 95%;
     }
     .section_title {
-        font-size: 26px;
+        font-size: 22px;
+        height: auto;
+        line-height: 38px;
     }
     img {
-        max-width: 70%;
+        max-width: 60px;
     }
     .section_img_text {
         float: left;
-        width: 60%;
+        width: 57%;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    .section_title_info__img {
+        
+    height: 60px;
     }
     .section_title_button {
-        width: 200px;
-        font-size: 26px;
-        height: 70px;
-        margin-bottom: 30px;
+        width: 190px;
+        font-size: 22px;
+        height: 60px;
+        margin-bottom: 15px;
         margin-top: 0;
+    }
+    .section_title_info__text {
+        
+    font-size: 20px;
+    padding-bottom: 0;
     }
     .footer {
         font-size: 11px;
+        padding: 0;
     }
-    .header_link,
+    .header, .header_link,
     .header_link__border {
         font-size: 15px;
+        height: 50px;
     }
     .header_link a img,
     .header_link__border a img {
         padding-right: 15px;
+        width: 40px;
     }
     .section_title_info {
-        padding-top: 20px;
+        padding-top: 5px;
+    }
+    .header_link a, .header_link__border a {
+        
+    padding-top: 10px;
     }
 }
 
@@ -391,7 +415,7 @@ a:hover {
     .header_link a img,
     .header_link__border a img {
         padding-right: 5px;
-        width: 22%;
+        width: 18%;
     }
     .section_title {
         font-size: 18px;
@@ -399,19 +423,19 @@ a:hover {
     }
     .section_img_text {
         font-size: 14px;
-        padding-top: 11px;
+        padding-top: 6px;
         line-height: 21px;
-        width: 65%;
+        width: 56%;
     }
     img {
-        max-width: 56%;
+        max-width: 45%;
     }
     .section_title_info__text {
-        font-size: 20px;
+        font-size: 18px;
         margin: 0;
     }
     .section_title_info__img {
-        height: 70px;
+        height: 53px;
     }
     .section_box {
         max-width: 90%;
@@ -429,9 +453,10 @@ a:hover {
     }
     .section_title_button {
         width: 240px;
-        margin-top: 0;
-        height: 78px;
-        margin-bottom: 25px;
+        margin-top: 10px;
+        height: 60px;
+        margin-bottom: 11px;
+        font-size: 20px;
     }
     .footer {
         font-size: 10px;
@@ -470,13 +495,13 @@ a:hover {
         max-width: 56%;
     }
     .section_title_info__text {
-        font-size: 20px;
-        line-height: 23px;
+        font-size: 19px;
         width: 190px;
         margin: 0 auto;
+        padding-bottom: 15px;
     }
     .section_title_info__img {
-        height: 55px;
+        height: 50px;
     }
     .section {
         display: block;
@@ -485,11 +510,10 @@ a:hover {
     }
     .section_box {
         max-width: 93%;
-        height: auto;
     }
     .section_title {
-        line-height: 30px;
-        padding-bottom: 5px;
+        line-height: 45px;
+        padding-bottom: 1px;
         font-size: 16px;
     }
     .section_img {
@@ -505,6 +529,10 @@ a:hover {
     .footer {
         font-size: 10px;
         padding: 0;
+    }
+    .section_title_info {
+        
+    padding-top: 20px;
     }
 }
 
