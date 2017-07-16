@@ -285,7 +285,59 @@ a:hover {
 
 /* Small Devices, Tablets */
 
-@media only screen and (max-width: 768px) {}
+@media only screen and (max-width: 740px) {
+    .header, .header_link, .header_link__border {
+        
+    height: 60px;
+    font-size: 18px;
+    }
+    .header_link a, .header_link__border a {
+        
+    padding-top: 11px;
+    }
+    .header_link a img, .header_link__border a img {
+        
+    width: 60px;
+    }
+    .section_title_info {
+        
+    padding-top: 15px;
+    }
+    .section_title {
+    font-size: 22px;
+    line-height: 2;
+    height: auto;
+    }
+    img {
+        
+    width: 65px;
+    }
+    .section_img_text {
+        
+    font-size: 20px;
+    width: 90%;
+    padding-top: 0;
+    }
+    .section_title_info__img {
+        
+    height: 65px;
+    }
+    .section_title_info__text {
+        
+    line-height: 40px;
+    font-size: 22px;
+    }
+    .section_title_button {
+        
+    margin-bottom: 15px;
+    height: 70px;
+    font-size: 30px;
+    }
+    .footer {
+        
+    font-size: 12px;
+    }
+}
 
 @media only screen and (max-width: 680px) {
     .section_box {
@@ -350,7 +402,7 @@ a:hover {
     .header,
     .header_link,
     .header_link__border {
-        height: 50px;
+        height: 45px;
         font-size: 12px;
     }
     .header_link a,
@@ -369,18 +421,16 @@ a:hover {
     .section_img_text {
         font-size: 14px;
         line-height: 21px;
-        width: 65%;
+        width: 75%;
     }
     img {
-        max-width: 45%;
+        max-width: 40%;
     }
     .section_title_info__text {
         font-size: 20px;
-        line-height: 23px;
-        margin-bottom: 15px;
     }
     .section_title_info__img {
-        height: 65px;
+        height: 50px;
     }
     .section_title {
         line-height: 30px;
@@ -395,7 +445,7 @@ a:hover {
     .section_title_button {
         width: 240px;
         margin-top: -3px;
-        height: 78px;
+        height: 50px;
     }
     .footer {
         font-size: 10px;
@@ -501,12 +551,12 @@ a:hover {
         width: 190px;
         margin: 0 auto;
         padding-bottom: 15px;
+        line-height: 30px;
     }
     .section_title_info__img {
         height: 50px;
     }
     .section {
-        display: block;
         padding-top: 20px;
         margin-bottom: 15px;
     }
