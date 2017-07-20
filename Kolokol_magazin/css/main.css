@@ -1,0 +1,903 @@
+@import: "../fonts/Kolokol School.ttf" screen;
+@import: "../fonts/Kolokol General.ttf" screen;
+*::-webkit-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*::-moz-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+*:-ms-input-placeholder {
+    color: #666;
+    opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {}
+
+body input:required:valid,
+body textarea:required:valid {}
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper_my {
+    display: flex;
+    min-height: 100%;
+    flex-direction: column;
+}
+
+body {
+    font-family: "OpenSansRegular", sans-serif;
+    font-size: 16px;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a:hover {
+    color: #ff8100;
+    transition: all 0.3s ease;
+}
+
+.top_header__img {
+    background-image: url(../img/header-IMG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.top_header__logo {
+    width: 35%;
+    float: left;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.top_header__logo img {
+    width: 38%;
+}
+
+.top_header_menu {
+    width: 42%;
+    float: left;
+    height: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.my_menu ul li {
+    float: left;
+    width: 21%;
+    text-align: right;
+    font-size: 18px;
+    color: #fff;
+}
+
+.my_menu a {
+    color: #fff;
+    text-transform: capitalize;
+    display: block;
+}
+
+.my_menu a:hover {
+    color: #ff8100;
+    transition: all 0.3s ease;
+}
+
+.top_header_number {
+    line-height: 144px;
+    font-size: 20px;
+    color: #fff;
+    height: 270px;
+}
+
+.header_title {
+    text-align: center;
+    height: 320px;
+}
+
+.header_title h1 {
+    line-height: 147px;
+    margin: 0;
+    font-family: "Kolokol School", sans-serif;
+    font-size: 100px;
+    color: #fff;
+}
+
+.header_title__text {
+    width: 35%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    font-size: 26px;
+    line-height: 42px;
+    font-family: "Kolokol General", sans-serif;
+}
+
+.top_header_title {
+    color: #fff;
+    height: 460px;
+    position: relative;
+}
+
+.top_header_title_title {
+    position: absolute;
+    left: 28%;
+    top: 82px;
+}
+
+.top_header_title h3 {
+    font-size: 34px;
+    font-family: "Kolokol General", sans-serif;
+}
+
+.top_header_title__text {
+    line-height: 33px;
+    font-size: 16px;
+}
+
+.top_header_button {
+    position: absolute;
+    top: 7.5em;
+    right: 27.8%;
+    width: 300px;
+    height: 66px;
+    border-radius: 50px 50px;
+    border: none;
+    background: #000;
+    font-family: "Kolokol General", sans-serif;
+    font-size: 26px;
+}
+
+.container_model {
+    height: 130em;
+}
+
+.section_model {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.section_model_title {
+    position: relative;
+    width: 49%;
+    top: 8em;
+    float: left;
+    left: 16px;
+    height: 53.2em;
+}
+
+p.section_model_title__text {
+    text-align: center;
+    color: #6a6a6a;
+    height: 34em;
+}
+
+.section_model_title h1 {
+    line-height: 76px;
+    padding-top: 19px;
+    text-align: center;
+    font-family: "Kolokol General", sans-serif;
+    font-size: 48px;
+}
+
+.section_model_img {
+    position: absolute;
+    top: 9.25em;
+    left: 82px;
+    width: 76%;
+}
+
+.section_model_img img {
+    width: 100%;
+}
+
+.section_model_title_bg {
+    width: 405px;
+    height: 46.5em;
+    background: #ececec;
+}
+
+.section_model_hover {
+    position: absolute;
+    width: 76%;
+    top: 148px;
+    left: 81px;
+    height: 447px;
+    background: rgba(196, 182, 175, 0.5);
+    display: none;
+}
+
+.section_model_hover__text {
+    line-height: 34px;
+    position: relative;
+    top: 38px;
+    width: 33em;
+    left: 21px;
+    font-size: 16px;
+}
+
+.section_model_hover__text p {
+    height: auto;
+    text-align: left;
+}
+
+.section_model_hover__button {
+    position: relative;
+    top: 82px;
+    left: 5.5em;
+    width: 251px;
+    height: 65px;
+    background: #000;
+    border: none;
+    border-radius: 50px 50px;
+    color: #fff;
+    font-family: "Kolokol General", sans-serif;
+    font-size: 26px;
+}
+
+.section_model_title span {
+    color: #000;
+    font-size: 29px;
+}
+
+p.section_model_title__info,
+span.section_model_title__summ {
+    position: relative;
+    left: 80px;
+    top: -4px;
+    line-height: 40px;
+}
+
+p.section_model_title__info {
+    font-size: 20px;
+}
+
+.section_model_text__text {
+    position: relative;
+    top: 140px;
+    left: 97px;
+    float: left;
+    font-size: 29px;
+    font-weight: 800;
+    line-height: 44px;
+}
+
+.section_model_text__text p {
+    width: 340px;
+}
+
+form {
+    float: right;
+    position: absolute;
+    top: 14px;
+    left: 12.3em;
+}
+
+.section_model__input {
+    width: 250px;
+    height: 66px;
+    border-radius: 50px 50px;
+    font-size: 18px;
+    text-align: center;
+    border: 2px solid #9a9a9a;
+}
+
+.section_model_text__text__button {
+    position: absolute;
+    top: 107px;
+    left: 13.8em;
+    width: 245px;
+    height: 64px;
+    border-radius: 50px;
+    border: none;
+    background: #d97943;
+    font-size: 26px;
+    font-family: "Kolokol General", sans-serif;
+}
+
+.section_model_text__text__button a {
+    color: #fff;
+}
+
+.section_example {
+    position: relative;
+}
+
+.section_example_model_XL {
+    position: relative;
+}
+
+.section_example_title_blac {
+    font-size: 139px;
+    color: #000;
+    width: 65%;
+    text-align: right;
+    font-family: "Kolokol School", sans-serif;
+    position: relative;
+    top: 85px;
+    z-index: 1;
+    line-height: 177px;
+    left: 66px;
+}
+
+.section_example_title_white {
+    font-size: 139px;
+    color: #fff;
+    z-index: 1;
+    width: 58%;
+    text-align: right;
+    position: absolute;
+    font-family: "Kolokol School", sans-serif;
+    left: -184px;
+}
+
+.section_example_title__text {
+    font-size: 28px;
+    color: #d4682c;
+    position: relative;
+    top: -20px;
+    font-family: "Kolokol General", sans-serif;
+}
+
+.section_example_img {
+    background-image: url(../img/DSC_3147.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 502px;
+}
+
+.section_example_outline_img {
+    background-image: url(../img/info_krugi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 660px;
+}
+
+.conteiner_info_selection {
+    position: relative;
+}
+
+.conteiner_info_selection_text {
+    position: absolute;
+    top: 4em;
+    left: 15%;
+    line-height: 58px;
+    font-size: 30px;
+}
+
+.conteiner_info_selection__price {
+    position: relative;
+    top: 24.5em;
+    width: 39%;
+    left: 15.2%;
+}
+
+.conteiner_info_price__img {
+    width: 58%;
+}
+
+.conteiner_info_price__img img,
+.conteiner_info_design__img img,
+.conteiner_info_ganscharny__img img,
+.conteiner_info_proizvodstvo__img img,
+.conteiner_info_model_ryd__img img,
+.conteiner_info_sale__img img {
+    width: 100%;
+}
+
+.conteiner_info_selection_title__price {
+    position: absolute;
+    top: 2.5em;
+    right: 1em;
+    width: 378px;
+    height: 62px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Kolokol General", sans-serif;
+    padding-top: 8px;
+}
+
+.conteiner_info_price_title__text {
+    position: absolute;
+    width: 40%;
+    right: -17px;
+    top: 7.5em;
+    font-size: 20px;
+    line-height: 34px;
+    color: #d3692c;
+}
+
+.conteiner_info_selection__design {
+    position: relative;
+    width: 29%;
+    left: 67.2em;
+    top: -15.6em;
+}
+
+.conteiner_info_design__img {
+    width: 98%;
+}
+
+.conteiner_info_title__design {
+    position: absolute;
+    top: 14.3em;
+    left: 5em;
+    color: #fff;
+    text-align: center;
+    width: 395px;
+    height: 63px;
+    background: #000;
+    border-radius: 50px;
+    font-size: 32px;
+    font-family: "Kolokol General", sans-serif;
+    padding-top: 8px;
+}
+
+.conteiner_info_design_title__text {
+    position: absolute;
+    top: 28em;
+    left: 4em;
+    width: 81%;
+    font-size: 20px;
+    line-height: 33px;
+    color: #d3692c;
+}
+
+.conteiner_info_selection__ganscharny {
+    position: relative;
+    top: -3.2em;
+    width: 45%;
+    left: 7em;
+}
+
+.conteiner_info_ganscharny__img {
+    float: right;
+    width: 37%;
+    position: relative;
+    left: 6.5em;
+    top: -4px;
+}
+
+.conteiner_info_title__ganscharny {
+    background: #000;
+    width: 16.2em;
+    position: relative;
+    left: 7em;
+    height: 61px;
+    color: #fff;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 32px;
+    font-family: "Kolokol General", sans-serif;
+    padding-top: 8px;
+}
+
+.conteiner_info_ganscharny_title__text {
+    width: 45%;
+    position: relative;
+    top: 28px;
+    left: 10em;
+    font-size: 20px;
+    line-height: 33px;
+    color: #d3692c;
+}
+
+.conteiner_info_selection__proizvodstvo {
+    width: 45%;
+    position: relative;
+    left: 53.5em;
+    top: -6.5em;
+}
+
+.conteiner_info_proizvodstvo__img {
+    float: right;
+    width: 51%;
+    position: relative;
+    left: 19em;
+}
+
+.conteiner_info_title__proizvodstvo {
+    position: absolute;
+    top: 157px;
+    width: 12em;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    left: 83px;
+    border-radius: 50px;
+    height: 62px;
+    font-size: 32px;
+    font-family: "Kolokol General", sans-serif;
+    padding-top: 8px;
+}
+
+.conteiner_info_proizvodstvo_title__text {
+    width: 42%;
+    position: absolute;
+    top: 13em;
+    line-height: 30px;
+    font-size: 19px;
+    color: #d3692c;
+}
+
+.conteiner_info_selection__model_ryd {
+    position: relative;
+    top: -25.4em;
+    left: 19em;
+    width: 24%;
+}
+
+.conteiner_info_model_ryd__img {
+    position: relative;
+    top: -30px;
+    width: 74%;
+    left: -24px;
+}
+
+.conteiner_info_title__model_ryd {
+    position: absolute;
+    background: #000;
+    top: 22.4em;
+    left: -61px;
+    width: 12em;
+    height: 61px;
+    border-radius: 50px;
+    color: #fff;
+    text-align: center;
+    font-size: 32px;
+    font-family: "Kolokol General", sans-serif;
+    padding-top: 8px;
+}
+
+.conteiner_info_model_ryd_title__text {
+    position: absolute;
+    left: -15px;
+    top: 42.5em;
+    width: 74%;
+    font-size: 19px;
+    line-height: 30px;
+    color: #d3692c;
+}
+
+.conteiner_info_selection__sale {
+    position: relative;
+    top: -20em;
+    left: 40em;
+    width: 52%;
+}
+
+.conteiner_info_sale__img {
+    width: 52%;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    font-size: 32px;
+    font-family: "Kolokol General", sans-serif;
+    padding-top: 8px;
+}
+
+.conteiner_info_title__sale {
+    position: absolute;
+    top: 2em;
+    right: 1.2em;
+    background: #000;
+    color: #fff;
+    font-size: 30px;
+    width: 18em;
+    height: 62px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.conteiner_info_sale_title__text {
+    position: absolute;
+    top: 8em;
+    right: 1.5em;
+    width: 42%;
+    font-size: 19px;
+    line-height: 34px;
+    color: #d3692c;
+}
+
+.section_collective_img {
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: -11.5em;
+    width: 66.5%;
+}
+
+.section_collective_img img {
+    width: 100%;
+}
+
+.section_collective {
+    position: relative;
+}
+
+.section_text {
+    position: relative;
+    top: -11em;
+    left: 20em;
+    z-index: 1;
+    width: 50%;
+}
+
+.section_text h1 {
+    font-size: 170px;
+    font-family: "Kolokol School", sans-serif;
+    word-spacing: -11px;
+}
+
+.section_text p {
+    position: absolute;
+    left: 92px;
+    font-size: 24px;
+    text-align: right;
+    width: 20%;
+    font-family: "Kolokol General", sans-serif;
+    top: 9em;
+}
+
+.section_collective__histori {
+    position: relative;
+    width: 27.5em;
+    left: 21em;
+    top: 2em;
+    background: #d26c2e;
+    padding: 20px;
+    line-height: 30.5px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.section_collective_title {
+    position: relative;
+    top: -7em;
+    left: 44em;
+    width: 19%;
+    font-family: "Kolokol General", sans-serif;
+    font-size: 24px;
+}
+
+.section_collective_title__text {
+    font-size: 24px;
+    line-height: 45px;
+}
+
+.section_collective_social_network {
+    float: left;
+    width: 94px;
+    font-size: 60px;
+    color: #d4682c;
+}
+
+.section_info_quality {
+    position: relative;
+}
+
+.conteiner_info_quality_text {
+    position: relative;
+    width: 50%;
+    left: 9.5em;
+    top: -48px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 58px;
+}
+
+.section_info_gold_section {
+    width: 50%;
+    position: relative;
+    top: -81px;
+}
+
+.section_info_gold_section__img img,
+.section_info_monolit__img img,
+.section_info_texture__img img,
+.section_info_sloi_laka__img img {
+    width: 100%;
+}
+
+.section_info_gold_section__img {
+    width: 42.2%;
+    position: relative;
+    top: 5.6em;
+    left: 13em;
+    z-index: 1;
+}
+
+.section_info_gold_section_title {
+    position: relative;
+    left: 25em;
+    top: -8.7em;
+    background: #eaeaea;
+    width: 33.6em;
+    height: 29.2em;
+}
+
+.gold_section_text__title {
+    color: #d4682c;
+    text-align: right;
+    width: 13em;
+    line-height: 50px;
+    position: relative;
+    top: 1em;
+    font-size: 36px;
+    left: 47px;
+    z-index: 1;
+    font-family: "Kolokol General", sans-serif;
+}
+
+.gold_section_text__text {
+    line-height: 33px;
+    position: relative;
+    top: 8em;
+    width: 28em;
+    font-size: 19px;
+    left: 18px;
+    font-weight: 600;
+}
+
+.section_info_monolit__img {
+    width: 48%;
+    z-index: 1;
+    position: absolute;
+}
+
+.section_info_monolit {
+    width: 44%;
+    position: absolute;
+    top: 15.1em;
+    right: 6.2em;
+}
+
+.section_info_monolit_title {
+    position: absolute;
+    top: 4.8em;
+    width: 64%;
+    right: 7em;
+    background: #eaeaea;
+    height: 29.3em;
+}
+
+.monolit_text__title {
+    text-align: right;
+    width: 11em;
+    position: relative;
+    top: 29px;
+    left: 31px;
+    z-index: 1;
+    line-height: 55px;
+    color: #d4682c;
+    font-family: "Kolokol General", sans-serif;
+    font-size: 44px;
+}
+
+.monolit_text__text {
+    width: 90%;
+    position: relative;
+    top: 89px;
+    left: 21px;
+    font-size: 19px;
+    line-height: 31px;
+    font-weight: 600;
+}
+
+.section_info_texture {
+    position: absolute;
+    top: 51.9em;
+    left: 13em;
+    width: 33%;
+}
+
+.section_info_texture__img {
+    width: 64%;
+    position: relative;
+    z-index: 1;
+}
+
+.section_info_texture_title {
+    background: #eaeaea;
+    position: relative;
+    top: -14.5em;
+    left: 12em;
+    width: 86%;
+    height: 30.5em;
+}
+
+.texture_text__title {
+    width: 7em;
+    text-align: right;
+    position: relative;
+    left: 6em;
+    top: 1em;
+    line-height: 55px;
+    font-size: 39px;
+    color: #d4682c;
+    font-family: "Kolokol General", sans-serif;
+}
+
+.texture_text__text {
+    position: relative;
+    top: 7.5em;
+    width: 95%;
+    left: 18px;
+    font-size: 19px;
+    line-height: 32px;
+    font-weight: 600;
+}
+
+.section_info_sloi_laka {
+    position: absolute;
+    top: 51.5em;
+    right: 10.5em;
+    width: 40.5%;
+}
+
+.section_info_sloi_laka__img {
+    width: 52%;
+    position: absolute;
+    z-index: 1;
+}
+
+.section_info_sloi_laka_title {
+    position: absolute;
+    right: 2.3em;
+    width: 70.5%;
+    background: #eaeaea;
+    top: 4.5em;
+    height: 30.5em;
+}
+
+.sloi_laka_text__title {
+    color: #d4682c;
+    width: 5em;
+    text-align: right;
+    position: relative;
+    left: 7em;
+    top: 1em;
+    line-height: 55px;
+    font-family: "Kolokol General", sans-serif;
+    font-size: 43px;
+}
+
+.sloi_laka_text__text {
+    width: 95%;
+    position: relative;
+    left: 16px;
+    top: 8em;
+    line-height: 33px;
+    font-size: 18px;
+    font-weight: 600;
+}
