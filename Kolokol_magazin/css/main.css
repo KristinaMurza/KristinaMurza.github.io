@@ -4,8 +4,10 @@
 }
 
 @font-face {
-    font-family: "Kolokol General";
-    src: url(../fonts/Kolokol General.ttf);
+    font-family: 'kolokol_generalregular';
+    src: url('../fonts/kolokol_general-webfont.woff2') format('woff2'), url('../fonts/kolokol_general-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
 *::-webkit-input-placeholder {
@@ -81,7 +83,22 @@ a:hover {
     height: auto;
 }
 
+.top_header_madel_S__img {
+    background-image: url(../img/header_model_S.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    position: relative;
+}
+
 .top_header__logo {
+    width: 35%;
+    float: left;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.header__logo {
     width: 35%;
     float: left;
     text-align: center;
@@ -120,20 +137,26 @@ a:hover {
     transition: all 0.3s ease;
 }
 
-.top_header_number {
+.top_header_number,
+.top_header_number a {
     line-height: 112px;
     font-size: 20px;
     color: #fff;
     height: 185px;
 }
 
-.top_header_number a {
+.header_number,
+.header_number a {
+    line-height: 112px;
+    font-size: 20px;
+    height: 90px;
     color: #fff;
+    text-align: right;
+    width: 90%;
 }
 
 .header_title {
     text-align: center;
-    /*! height: 320px; */
 }
 
 .header_title h1 {
@@ -150,13 +173,12 @@ a:hover {
     text-align: center;
     color: #fff;
     font-size: 26px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
 }
 
 .top_header_title {
     color: #fff;
     height: 390px;
-    /*! position: relative; */
     margin-bottom: 1%;
 }
 
@@ -167,9 +189,23 @@ a:hover {
     width: 50%;
 }
 
+.top_header_title_model_S {
+    top: 18em;
+    left: 14.1em;
+    color: #fff;
+    position: absolute;
+}
+
+.top_header_title_title_model_S {
+    width: 37%;
+    line-height: 24px;
+}
+
+.top_header_title_text_model_S {}
+
 .top_header_title h3 {
     font-size: 34px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
 }
 
 .top_header_title__text {
@@ -186,13 +222,112 @@ a:hover {
     border-radius: 50px 50px;
     border: none;
     background: #000;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     font-size: 26px;
 }
 
-.top_header_button a {
+.button__model_S {
+    position: relative;
+    top: 2em;
+    right: 0;
+    width: 225px;
+    height: 43px;
+    border-radius: 50px 50px;
+    border: none;
+    background: #000;
+    font-family: "kolokol_generalregular", sans-serif;
+    font-size: 26px;
+}
+
+.top_header_button a,
+.button__model_S a {
     color: #fff;
 }
+
+.header_title_model_S {
+    font-size: 52px;
+    font-family: "Kolokol School", sans-serif;
+    color: #fff;
+    position: absolute;
+    left: 207px;
+    top: 108px;
+    width: 10em;
+    line-height: 89px;
+}
+
+.header_title_model_S h2 {
+    position: absolute;
+    top: 72px;
+    left: 42px;
+    font-size: 97px;
+}
+
+.header_title_model_S__text {
+    position: absolute;
+    top: 38px;
+    left: 146px;
+    color: #fff;
+}
+
+.model_S_3D {
+    position: relative;
+    top: 33px;
+}
+
+.model_S_box_3D {
+    position: absolute;
+    right: 0;
+    background: #fff;
+    width: 46.5em;
+    height: 37.5em;
+    border-radius: 300px 0 0 300px;
+}
+
+.model_S_box_3D_img {
+    position: absolute;
+    top: 227px;
+    left: 53px;
+}
+
+.model_S_box_3D__img {
+    position: absolute;
+    left: 185px;
+    top: 176px;
+}
+
+.model_S_img_color_oreh {
+    margin-bottom: 16px;
+}
+
+.box_3D_text {
+    position: absolute;
+    top: 26.4em;
+    left: 8.6em;
+}
+
+.box_3D_text p {
+    width: 175px;
+    color: #c45e24;
+}
+
+p.box_3D_text_icons {
+    position: absolute;
+    left: 13em;
+    top: 39px;
+    -moz-transform: matrix(8, -3, -3, -6, 0, 0);
+    -webkit-transform: matrix(8, -3, -3, -6, 0, 0);
+    -o-transform: matrix(8, -3, -3, -6, 0, 0);
+    -ms-transform: matrix(8, -3, -3, -6, 0, 0);
+    width: 0;
+}
+
+p.box_3D_text_icons a {
+    font-size: 10px;
+    color: #000;
+}
+
+
+/*===================*/
 
 .container_model {
     height: 104.5em;
@@ -201,6 +336,36 @@ a:hover {
 .section_model {
     width: 80%;
     margin: 0 auto;
+}
+
+.section_model_bg {
+    background: #d9d9d9;
+    position: relative;
+    height: 55.5em;
+}
+
+.section_model_S_text {
+    height: 11.5em;
+    width: 50%;
+    vertical-align: middle;
+    display: table-cell;
+    position: relative;
+    left: 208px;
+    line-height: 43px;
+    font-size: 25px;
+    font-weight: 600;
+    top: 34px;
+}
+
+.model_S_video {
+    position: absolute;
+    left: 13em;
+    z-index: 1;
+}
+
+video {
+    width: 39.5em;
+    height: 414px;
 }
 
 .section_model_title {
@@ -212,10 +377,63 @@ a:hover {
     height: 39.2em;
 }
 
+.blok_text {
+    position: absolute;
+    right: 13em;
+    background: #3d3d3d;
+    top: 25.5em;
+    width: 459px;
+    height: 38.5em;
+}
+
+.blok_text_text {
+    color: #fff;
+    width: 300px;
+    position: relative;
+    left: 138px;
+    font-size: 14px;
+    top: 31px;
+    line-height: 24px;
+    z-index: 1;
+}
+
+.blok_text_bottom {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.blok_text_bottom span {
+    font-size: 27px;
+}
+
+.blok_text_text h3 {
+    margin-bottom: 23px;
+}
+
+.blok_text_right {
+    text-align: right;
+}
+
+.button_blok_text {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 218px;
+    height: 43px;
+    border-radius: 50px 50px;
+    border: none;
+    background: #d1642e;
+    font-family: "kolokol_generalregular", sans-serif;
+    font-size: 26px;
+}
+
+.button_blok_text a {
+    color: #fff;
+}
+
 p.section_model_title__text {
     text-align: center;
     color: #6a6a6a;
-    /*! height: 30.5em; */
     font-weight: 600;
     font-size: 14px;
     padding-top: 8px;
@@ -238,7 +456,7 @@ p.section_model_XL_title__text {
     line-height: 20px;
     padding-top: 32px;
     text-align: center;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     font-size: 39px;
 }
 
@@ -252,26 +470,26 @@ p.section_model_XL_title__text {
     width: 300px;
     height: 34.5em;
     background: #ececec;
-    /*! position: relative; */
 }
 
 .section_model_hover {
     position: absolute;
     width: 76%;
-    top: 148px;
-    left: 81px;
-    height: 447px;
+    top: 112px;
+    left: 62px;
+    height: 330px;
     background: rgba(196, 182, 175, 0.5);
     display: none;
 }
 
 .section_model_hover__text {
-    line-height: 34px;
+    line-height: 24px;
     position: relative;
-    top: 38px;
-    width: 33em;
-    left: 21px;
-    font-size: 16px;
+    top: 26px;
+    width: 28em;
+    left: 16px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .section_model_hover__text p {
@@ -281,16 +499,20 @@ p.section_model_XL_title__text {
 
 .section_model_hover__button {
     position: relative;
-    top: 82px;
-    left: 5.5em;
-    width: 251px;
-    height: 65px;
+    top: 20px;
+    left: 4.5em;
+    width: 180px;
+    height: 45px;
     background: #000;
     border: none;
     border-radius: 50px 50px;
     color: #fff;
-    font-family: "Kolokol General", sans-serif;
-    font-size: 26px;
+    font-family: "kolokol_generalregular", sans-serif;
+    font-size: 23px;
+}
+
+.section_model_hover__button {
+    color: #fff;
 }
 
 .section_model_title span {
@@ -317,7 +539,7 @@ span.section_model_title__summ {
 
 .text_section_model_XL {
     position: relative;
-    top: -8em;
+    top: -3.5em;
 }
 
 p.section_model_title__info {
@@ -376,7 +598,7 @@ form {
     border: none;
     background: #d97943;
     font-size: 26px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
 }
 
 .section_model_text__text__button a {
@@ -420,7 +642,7 @@ form {
     color: #d4682c;
     position: relative;
     top: -20px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
 }
 
 .section_example_img {
@@ -458,10 +680,6 @@ form {
     left: 15.2%;
 }
 
-.conteiner_info_price__img {
-    position: r;
-}
-
 .conteiner_info_selection_title__price {
     position: absolute;
     top: 1.7em;
@@ -473,7 +691,7 @@ form {
     color: #fff;
     text-align: center;
     font-size: 30px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-top: 8px;
 }
 
@@ -494,10 +712,6 @@ form {
     top: 8.2em;
 }
 
-.conteiner_info_design__img {
-    /*! width: 98%; */
-}
-
 .conteiner_info_title__design {
     position: absolute;
     top: 11.3em;
@@ -509,7 +723,7 @@ form {
     background: #000;
     border-radius: 50px;
     font-size: 30px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-top: 3px;
 }
 
@@ -532,10 +746,7 @@ form {
 
 .conteiner_info_ganscharny__img {
     float: right;
-    /*! width: 37%; */
     position: relative;
-    /*! left: 6.5em; */
-    /*! top: -4px; */
 }
 
 .conteiner_info_title__ganscharny {
@@ -548,7 +759,7 @@ form {
     text-align: center;
     border-radius: 50px;
     font-size: 27px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-top: 8px;
     top: 3px;
 }
@@ -572,8 +783,6 @@ form {
 
 .conteiner_info_proizvodstvo__img {
     float: right;
-    /*! width: 51%; */
-    /*! position: relative; */
     left: 18em;
 }
 
@@ -588,7 +797,7 @@ form {
     border-radius: 50px;
     height: 49px;
     font-size: 28px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-top: 4px;
 }
 
@@ -611,9 +820,6 @@ form {
 
 .conteiner_info_model_ryd__img {
     position: relative;
-    /*! top: -30px; */
-    /*! width: 74%; */
-    /*! left: -24px; */
 }
 
 .conteiner_info_title__model_ryd {
@@ -627,7 +833,7 @@ form {
     color: #fff;
     text-align: center;
     font-size: 30px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-top: 6px;
 }
 
@@ -649,12 +855,11 @@ form {
 }
 
 .conteiner_info_sale__img {
-    /*! width: 52%; */
     position: relative;
     top: 2px;
     left: 5px;
     font-size: 32px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-top: 8px;
 }
 
@@ -669,7 +874,7 @@ form {
     height: 47px;
     text-align: center;
     border-radius: 50px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-top: 3px;
 }
 
@@ -688,11 +893,6 @@ form {
     position: absolute;
     right: 0;
     top: 0;
-    /*! width: 66.5%; */
-}
-
-.section_collective_img img {
-    /*! width: 100%; */
 }
 
 .section_collective {
@@ -704,7 +904,6 @@ form {
     top: 0;
     left: 13em;
     z-index: 1;
-    /*! width: 50%; */
 }
 
 .section_text h2 {
@@ -719,7 +918,7 @@ form {
     font-size: 24px;
     text-align: right;
     width: 20%;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     top: 6.8em;
 }
 
@@ -732,7 +931,6 @@ form {
     padding: 20px;
     line-height: 22px;
     font-size: 16px;
-    /*! font-weight: 600; */
 }
 
 .section_collective_title {
@@ -740,7 +938,7 @@ form {
     top: 29.5em;
     left: 32em;
     width: 19%;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     font-size: 24px;
 }
 
@@ -783,7 +981,6 @@ form {
 }
 
 .section_info_gold_section__img {
-    /*! width: 42.2%; */
     position: absolute;
     top: 5.6em;
     left: 13em;
@@ -802,14 +999,13 @@ form {
 .gold_section_text__title {
     color: #d4682c;
     text-align: right;
-    /*! width: 13em; */
     line-height: 46px;
     position: absolute;
     top: 0.6em;
     font-size: 36px;
     left: 2em;
     z-index: 1;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     padding-left: ;
     padding-right: 13px;
 }
@@ -856,7 +1052,7 @@ form {
     z-index: 1;
     line-height: 46px;
     color: #d4682c;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     font-size: 32px;
 }
 
@@ -879,7 +1075,6 @@ form {
 }
 
 .section_info_texture__img {
-    /*! width: 64%; */
     position: absolute;
     z-index: 1;
 }
@@ -902,7 +1097,7 @@ form {
     line-height: 47px;
     font-size: 33px;
     color: #d4682c;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
 }
 
 .texture_text__text {
@@ -946,7 +1141,7 @@ form {
     left: 5em;
     top: 0.5em;
     line-height: 47px;
-    font-family: "Kolokol General", sans-serif;
+    font-family: "kolokol_generalregular", sans-serif;
     font-size: 39px;
 }
 
@@ -969,7 +1164,6 @@ form {
     left: 1.6em;
     letter-spacing: 2px;
     top: -22px;
-    /*! width: 50%; */
 }
 
 .section_slider_title_blac {
@@ -1157,4 +1351,142 @@ form {
 
 p.footer_icins_card {
     padding-top: 35px;
+}
+
+.section_model_S_plus_tile {
+    position: relative;
+    top: 168px;
+}
+
+.section_model_S_plus_tile h2 {
+    position: absolute;
+    font-size: 102px;
+    font-family: "Kolokol School", sans-serif;
+    left: 206px;
+    top: 21px;
+}
+
+.model_S_plus_tile_top {
+    position: absolute;
+    color: #d1642e;
+    left: 10.5em;
+    top: 29px;
+    font-size: 31px;
+    font-family: "kolokol_generalregular", sans-serif;
+}
+
+.conteiner_model_S_plus {
+    position: relative;
+    height: 118em;
+}
+
+.model_S_plus_tile_bottom {
+    color: #d1642e;
+    position: absolute;
+    font-size: 31px;
+    font-family: "kolokol_generalregular", sans-serif;
+    top: 4em;
+    left: 19em;
+}
+
+.container {
+    top: 24em;
+    text-align: center;
+    height: 459px;
+    width: 1000px;
+    padding-top: 12px;
+    position: relative;
+}
+
+.section_model_S_plus_img__text {
+    font-size: 19px;
+    margin-top: 15px;
+}
+
+.section_model_S__img {
+    background-image: url(../img/img_model_S.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 380px;
+}
+
+.section_model_S_outline_img {
+    background-image: url(../img/figura_model_S.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 486px;
+}
+
+.section_title_blac {
+    font-size: 136px;
+    color: #000;
+    width: 80%;
+    text-align: right;
+    font-family: "Kolokol School", sans-serif;
+    position: absolute;
+    z-index: 1;
+    left: -1.7em;
+    top: -124px;
+}
+
+.section_query_ans {
+    position: relative;
+    /*! height: 50em; */
+}
+
+.section_query_ans_text {
+    height: 245px;
+}
+
+.section_query_ans_text p {
+    width: 30%;
+    position: relative;
+    top: 85px;
+    left: 212px;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 42px;
+}
+
+.box_query_ans {
+    width: 80%;
+}
+
+.query_ans__text {
+    color: #c86636;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 4px;
+    margin-bottom: 50px;
+    display: none;
+}
+
+.query__title {
+    color: #fff;
+    top: 0;
+    right: 0;
+    width: 403px;
+    height: 48px;
+    border-radius: 50px 50px;
+    border: none;
+    background: #000;
+    font-family: "kolokol_generalregular", sans-serif;
+    font-size: 26px;
+    padding-top: 7px;
+    margin-bottom: 18px;
+}
+
+.box_query_ans_left {
+    width: 40%;
+    position: relative;
+    left: 230px;
+    float: left;
+}
+
+.box_query_ans_right {
+    width: 40%;
+    position: relative;
+    left: 211px;
+    top: 1px;
+    float: left;
 }
