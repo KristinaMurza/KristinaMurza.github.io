@@ -1,0 +1,14 @@
+@font-face {
+			font-family: "KolokolSchool";
+			src: 
+			url("../fonts/KolokolSchool.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+@font-face {
+			font-family: "KolokolGeneral";
+			src: 
+			url("../fonts/KolokolGeneral.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
