@@ -1,0 +1,162 @@
+.wrapper_form {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.block_form {
+    border: 1px solid #cacaca;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 40px 0;
+    border-radius: 5px;
+    form {
+        width: 35em;
+        margin: 0 auto;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-weight: normal;
+        border-bottom: 1px dashed #e6e6e6;
+        padding-bottom: 20px;
+    }
+    label {
+        color: #7d7d7d;
+    }
+    a {
+        color: #7d7d7d;
+    }
+    &_mumber {
+        margin: 25px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        width: 40%;
+        .minus,
+        .plus {
+            border: 1px solid #cacaca;
+            padding: 0 10px;
+            border-radius: 5px;
+            font-size: 25px;
+            cursor: pointer;
+            color: #cacaca;
+            top: -4px;
+            &:hover {
+                background-color: #efefef;
+            }
+        }
+        input {
+            width: 30px;
+            text-align: center;
+            padding: 5px 5px;
+            border-radius: 5px;
+            border: 1px solid #cacaca;
+            margin-bottom: -3px;
+            position: relative;
+            top: -4px;
+        }
+    }
+    &_summ {
+        text-align: right;
+        width: 30%;
+    }
+    &_result {
+        border-top: 1px dashed #e6e6e6;
+        border-bottom: 1px dashed #e6e6e6;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 30px;
+        p {
+            margin: 15px 0;
+        }
+
+        .result {
+            font-size: 30px;
+        }
+        .form_result_img {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            img {
+                margin-right: 10px;
+            }
+        }
+    }
+    .block_form_summ {
+        label {
+            float: left;
+        }
+    }
+    .box-line {
+        margin-top: 30px;
+        border-top: 1px dashed #e6e6e6;
+    }
+    .box {
+        padding-top: 20px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        input[type="text"] {
+            width: 250px;
+            height: 30px;
+            padding: 5px 5px;
+            border-radius: 5px;
+            border: 1px solid #e6e6e6;
+        }
+    }
+    .form-submit-score {
+        margin: 20px 0;
+        input {
+            padding: 15px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            background-color: #ff0000;
+            cursor: pointer;
+        }
+    }
+
+    .form-submit-card {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-bottom: 20px;
+        input {
+            padding: 15px;
+            border-radius: 5px;
+            color: #fff;
+            font-weight: bold;
+            border: none;
+            background-color: #1cac20;
+            cursor: pointer;
+        }
+    }
+}

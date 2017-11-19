@@ -1,0 +1,38 @@
+$color: #fff;
+
+.header_bg {
+    background-color: #282828;
+    height: 30px;
+}
+
+.header_img {
+    background-image: url(../img/bg-header.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 3em 0 22px 0;
+    .header_title_text {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        section {
+            padding-top: 25px;
+            .header_text {
+                font-size: 30px;
+                margin: 10px 0;
+                color: $color;
+            }
+            p {
+                color: $color;
+                font-size: 30px;
+
+            }
+            h1 {
+                color: #fffc00;
+                font-size: 66px;
+                margin: 0;
+            }
+        }
+    }
+}
